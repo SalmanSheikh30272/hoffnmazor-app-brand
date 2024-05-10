@@ -82,7 +82,7 @@ $page = 'home';
                             <p>Our clients love us because of our love for mobiles. We are pioneers in the app development industry. Some of our core expertise in app development includes:</p>
                             <div class="website-main-buttons">
                                 <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
-                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat!</button>
+                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat</button>
                             </div>
                         </div>
                     </div>
@@ -241,20 +241,22 @@ $page = 'home';
     <!-- Main CTA Section Start Here -->
     <section class="cta-main-wrap">
         <div class="container">
-            <div class="row justify-content-center align-items-center justify-content-between">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7 col-sm-12 col-12">
-                    <div class="cta-main-content" >
-                        <h5 class="heading-two">Services We Offer</h5>
-                        <p>Our clients love us because of our love for mobiles. We are pioneers in the app development industry. Some of our core expertise in app development includes:</p>
-                        <div class="website-main-buttons">
-                            <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
-                            <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat!</button>
+            <div class="cta-main-inner">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="cta-main-content" >
+                            <h5 class="heading-three">Let’s Discuss Your Project</h5>
+                            <p>Get Free Consultation And Let Us Know Your Project Idea To Turn It Into An Amazing</p>
+                            <div class="website-main-buttons">
+                                <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
+                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
-                    <div class="cta-main-img">
-                        <img src="assets/images/service-offer-img.avif" data-src="assets/images/service-offer-img.avif" alt="Offer Box Icon" width="75%" height="100%">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="cta-main-img">
+                            <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Img" width="55%" height="auto">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -262,37 +264,105 @@ $page = 'home';
     </section>
     <!-- Main CTA Section End Here -->
 
-    <!-- Unlock Story Section Start Here -->
-    <section class="unlock-story-wrap unlock-story-bg">
+    <!-- Portfolio Publish Section Start Here -->
+    <section class="portfolio-publish-wrap">
         <div class="container">
-            <div class="unlock-story-inner">
-                <div class="row align-items-center">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="unlock-story-content">
-                            <h3 class="heading-three">Why You Should Hire Book Writers</h3>
-                            <p>Give your story a boost with professional book writers. At Penguin Book Writers, we redefine storytelling, offering unparalleled writing services curated by our team of experts. Elevate your narrative with our professionals, who skillfully craft compelling stories that captivate your readers. Choose us for a seamless journey from concept to publishing, setting new standards in the literary industry. We are the professional book writing company that your book needs to go big!</p>
-                            <ul>
-                                <li>Expertise in Diverse Genres</li>
-                                <li>Professionalism and Reliability</li>
-                                <li>Creative Storytelling</li>
-                                <li>Tailored Content for Your Audience</li>
-                            </ul>
-                            <div class="website-main-buttons">
-                                <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Let's Get Started</button>
-                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Start Live Chat</button>
+            <div class="portfolio-publish-head">
+                <h4 class="heading-two">Our Recent Work</h4>
+            </div>
+        </div>
+        <!-- Portfolio Publish Tablist Start Here -->
+        <?php include 'includes/sections/portfolio-publish-tablist.php'; ?>
+        <!-- Portfolio Publish Tablist End Here -->
+    </section>
+    <!-- Portfolio Publish Section End Here -->
+
+    <!-- Step Works Section Start Here -->
+    <section class="step-works-wrap">
+        <div class="container">
+            <div class="step-works-head">
+                <h3 class="heading-two">Our Application Development Process</h3>
+            </div>
+            <div class="step-works-inner">
+                <div class="row">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">01</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">Product Strategy</h4>
+                                <p>Our application developers work and develop a strategy for developing your idea into a full-fledged mobile application that your customers would love.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="unlock-story-img text-center">
-                            <img src="assets/images/unlock-story-marketing2.png" alt="CTA Banner Marketing Two" class="img-fluid box2">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">02</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">UI/UX Design</h4>
+                                <p>Designing an experience assisted by an impeccable interface is the pinnacle of an app’s success, and take large measures to ensure your app looks and feels right.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">03</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">Testing</h4>
+                                <p>Rigorous testing phases are run to ensure the app is free of lags, bugs, and other developmental issues which could slow progress or hamper a seamless user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">04</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">Analysis & Planning</h4>
+                                <p>We carefully analyze each process, prepare its findings, and developing intuitive strategies to work on the most pressing areas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">05</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">App Development</h4>
+                                <p>The most awaited process where our coders get down to go the groundwork by our application developers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="step-works-box">
+                            <span class="step-count">06</span>
+                            <div class="works-box-content">
+                                <h4 class="heading-two text-center">Development & Support</h4>
+                                <p>After complete development, your app idea is deployed on hosting platforms and post-launch support is initiated.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Unlock Story Section End Here -->
+    <!-- Step Works Section End Here -->
+
+    <!-- Award Brands Section End Here -->
+    <section class="award-brands-wrap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+                    <div class="award-brands-content">
+                        <h5 class="heading-three">Awards & Recognitions</h5>
+                    </div>
+                </div>
+                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-9 col-sm-12 col-12">
+                    <!-- Award Brand Slider Include Here -->
+                    <?php include 'includes/sections/award-brand-slider.php'; ?>
+                    <!-- Award Brand Slider Include Here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Award Brands Section End Here -->
 
     <!-- Why Choose Section Start Here -->
     <section class="why-choose-wrap">
@@ -378,65 +448,6 @@ $page = 'home';
         </div>
     </section>
     <!-- CTA Banner Section End Here -->
-
-    <!-- Step Works Section Start Here -->
-    <section class="step-works-wrap">
-        <div class="container">
-            <div class="step-works-head">
-                <h3 class="heading-two">Our Seamless Book Writing Process</h3>
-                <p>Embark on a literary journey with our streamlined book writing process designed to transform your ideas into a compelling masterpiece.</p>
-            </div>
-            <div class="step-works-inner">
-                <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                        <div class="step-works-box">
-                            <div class="work-box-img">
-                                <img src="assets/images/step-works-icons/1-1.png" alt="Step One" class="img-fluid">
-                            </div>
-                            <div class="works-box-content">
-                                <h4 class="heading-five">Client Discussion</h4>
-                                <p>Before we start to write your book, we always listen to everything you have to say so that we can understand the vision you have in your mind for your book.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                        <div class="step-works-box">
-                            <div class="work-box-img">
-                                <img src="assets/images/step-works-icons/2-1.png" alt="Step Four" class="img-fluid">
-                            </div>
-                            <div class="works-box-content">
-                                <h4 class="heading-five">Initial Drafting</h4>
-                                <p>Now that we know what you expect from us, our professional writers can begin. We start by creating a rough draft of the first few chapters.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                        <div class="step-works-box">
-                            <div class="work-box-img">
-                                <img src="assets/images/step-works-icons/3-1.png" alt="Step Four" class="img-fluid">
-                            </div>
-                            <div class="works-box-content">
-                                <h4 class="heading-five">Feedback & Revisions</h4>
-                                <p>We then send the initial chapters over to you and ask for your feedback. After implementing the changes our experts will pick where they left off keeping the tone and style you provided in mind.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                        <div class="step-works-box">
-                            <div class="work-box-img">
-                                <img src="assets/images/step-works-icons/4-1.png" alt="Step Four" class="img-fluid">
-                            </div>
-                            <div class="works-box-content">
-                                <h4 class="heading-five">Book Publishing</h4>
-                                <p>Once everything is ready and we have your approval, the time to publish your book is now. We make sure your work is available on all the popular platforms so that it’s easy for your readers to find.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Step Works Section End Here -->
 
     <!-- Main CTA Section Start Here -->
     <section class="cta-main-wrap">

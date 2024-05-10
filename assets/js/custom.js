@@ -65,6 +65,45 @@ $('.bandown-brands-item').slick({
 });
 //***** Banner Down Brands Slider JS End Here *****//
 
+//*****  Award Brands Slider JS Start Here *****//
+$('.award-brands-slider').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 7,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+//***** Award Brands Slider JS End Here *****//
+
 //*****  Service Offer Slider JS Start Here *****//
 // $('.service-offer-slider').slick({
 //   dots: false,

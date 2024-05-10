@@ -28,6 +28,10 @@
     src: url("../fonts/Gilroy-Regular.ttf");
     font-weight: 400;
 }
+@font-face {
+    font-family: "Delrium-NCV";
+    src: url("../fonts/Delrium-NCV.woff");
+}
 
 h1,
 h2,
@@ -517,6 +521,7 @@ section.counter-satisfy-wrap{
 .counter-satisfy-box .counter-box-head .heading-two{
     color: #fff;
     margin: 0 0 10px;
+    text-transform: uppercase;
 }
 .counter-satisfy-box .counter-box-head .heading-two span{
     font-family: "Gilroy-Bold";
@@ -642,6 +647,7 @@ section.service-offer-wrap{
 
 /*Banner Down Brands Section Css Start Here*/
 section.bandown-brands-wrap{
+    background: #f7ffff;
     position: relative;
     padding: 30px 0;
 }
@@ -653,6 +659,7 @@ section.bandown-brands-wrap{
 .bandown-brands-head .heading-two{
     color: #212529;
     margin: 0 0 10px;
+    text-transform: uppercase;
 }
 .bandown-brands-head p{
     color: #212529;
@@ -673,12 +680,34 @@ section.bandown-brands-wrap{
 
 /*Main CTA Section Css Start Here*/
 section.cta-main-wrap{
+    background: #f7ffff;
     padding: 50px 0;
+}
+.cta-main-wrap .cta-main-inner{
+    background-image: url(../images/bg-img/cta-main-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 100%;
+    padding: 30px 30px;
+    border-radius: 35px 35px;
     position: relative;
     z-index: 1;
 }
+.cta-main-inner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #d3cccc;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    border-radius: 35px 35px;
+}
 .cta-main-wrap .cta-main-content{}
-.cta-main-content .heading-two{
+.cta-main-content .heading-three{
     color: #212529;
     margin: 0 0 10px;
 }
@@ -705,12 +734,235 @@ section.cta-main-wrap{
     color: #fff;
 }
 .cta-main-wrap .cta-main-img{
-    text-align: right;
+    position: relative;
+    text-align: center;
 }
 .cta-main-wrap .cta-main-img img{
-    width: 75%;
+    position: absolute;
+    width: 55%;
+    top: -190px;
+    left: 35%;
 }
 /*Main CTA Section Css End Here*/
+
+/*Portfolio Publish Section Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    margin: 0 0 30px;
+}
+.portfolio-publish-head .heading-two{
+    color: #212529;
+    margin: 0 0 10px;
+}
+.portfolio-publish-head p{
+    color: #212529;
+}
+.portfolio-publish-wrap .portfolio-publish-inner{}
+.portfolio-publish-inner .portfolio-publish-buttons{}
+.portfolio-publish-buttons ul.nav-pills{}
+.portfolio-publish-buttons ul.nav-pills li.nav-item{
+    margin: 0 0px 15px;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
+    background: #d5d5d5;
+    color: #8d8d8d;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #d5d5d5;
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 175px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link.active{
+    background: #092b35;
+    color: #fff;
+    border: 2px solid #092b35;
+}
+.portfolio-publish-wrap .portfolio-publish-tabitem{}
+#pills-portfolio1 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/radius-bg.jpg);
+}
+#pills-portfolio2 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/totem-bg.jpg);
+}
+#pills-portfolio3 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/irt-bg.jpg);
+}
+#pills-portfolio4 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/wyze-bg.avif);
+}
+#pills-portfolio5 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/viator-bg.avif);
+}
+#pills-portfolio6 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/k-mint-bg.avif);
+}
+#pills-portfolio7 .portfolio-tabitem-inner{
+    background-image: url(../images/portfolio-publish/dicast-bg.avif);
+}
+.portfolio-publish-tabitem .portfolio-tabitem-inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 40px 30px;
+    border-radius: 50px;
+    height: 420px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.portfolio-tabitem-inner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    border-radius: 50px;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-content{}
+.portfolio-tabitem-content .heading-two{
+    color: #fff;
+    margin: 0 0 10px;
+}
+.portfolio-tabitem-content p{
+    color: #fff;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-img{
+    position: relative;
+    top: 75px;
+    left: 10px;
+}
+.portfolio-tabitem-img img{
+    width: 134px;
+}
+/*Portfolio Publish Section Css End Here*/
+
+/*Step Works Section Css Start Here*/
+section.step-works-wrap{
+    background: #f7ffff;
+    padding: 50px 0;
+}
+.step-works-wrap .step-works-head{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.step-works-head .heading-two{
+    color: #212529;
+    margin: 0 0 10px;
+}
+.step-works-head p{
+    color: #212529;
+}
+.step-works-wrap .step-works-inner{}
+.step-works-inner .step-works-box{
+    position: relative;
+    padding: 20px 20px;
+    margin: 0 30px;
+    z-index: 1;
+}
+.step-works-box span.step-count{
+    font-family: "Delrium-NCV";
+    position: absolute;
+    top: -75px;
+    color: #f7ffff;
+    font-size: 240px;
+    -webkit-text-stroke: 2px #d5d5d5;
+    text-shadow: 0px 0px 0 #d55050;
+    z-index: -1;
+}
+.step-works-box .works-box-content{}
+.works-box-content .heading-two{
+    color: #212529;
+    height: 40px;
+    margin: 0 0 40px;
+}
+.works-box-content p{
+    color: #212529;
+}
+.works-box-content p::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.0);
+    border-radius: 0px;
+}
+.works-box-content p::-webkit-scrollbar{
+    width: 3px;
+    background: #b2b2b2;
+    border-radius: 0px;
+}
+.works-box-content p::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 0px;
+}
+/*Step Works Section Css End Here*/
+
+/*Award Brands Section Css Start Here*/
+section.award-brands-wrap{
+    padding: 30px 0px;
+}
+.award-brands-wrap .award-brands-content{}
+.award-brands-content .heading-three{
+    color: #000;
+    margin: 0 0 10px;
+}
+.award-brands-wrap .award-brands-slider{
+    margin: 0 20px 0;
+}
+.award-brands-slider .slick-arrow{
+    top: 25%;
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 0;
+    z-index: 9;
+    display: none !important;
+}
+.award-brands-slider .slick-prev{
+    left: -15px;
+}
+.award-brands-slider .slick-prev:before{
+    content: '\f104';
+    position: absolute;
+    font-family: 'Font Awesome 6 Pro';
+    font-size: 32px;
+    color: #000;
+}
+.award-brands-slider .slick-next{
+    right: -25px;
+}
+.award-brands-slider .slick-next:before{
+    content: '\f105';
+    position: absolute;
+    font-family: 'Font Awesome 6 Pro';
+    font-size: 32px;
+    color: #000;
+    right: 10px;
+}
+.award-brands-slider .award-brands-box{
+    margin: 0 20px 0;
+}
+.award-brands-box img{
+    width: 105px;
+    height: 75px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+/*Award Brands Section Css End Here*/
 
 /*Why Choose Section Css Start Here*/
 section.why-choose-wrap{
@@ -841,63 +1093,6 @@ section.cta-banner-wrap{
 }
 .cta-banner-wrap .cta-banner-img img{}
 /*CTA Banner Section Css End Here*/
-
-/*Step Works Section Css Start Here*/
-section.step-works-wrap{
-    padding: 50px 0;
-}
-.step-works-wrap .step-works-head{
-    width: 90%;
-    text-align: center;
-    margin: 0 auto 50px;
-}
-.step-works-head .heading-two{
-    color: #181818;
-    margin: 0 0 10px;
-}
-.step-works-head p{
-    color: #181818;
-}
-.step-works-wrap .step-works-inner{}
-.step-works-inner .step-works-box{
-    margin: 0 0 30px;
-    display: flex;
-}
-.step-works-box .work-box-img{
-    width: 25%;
-    margin: 0 20px 0 0;
-}
-.work-box-img img{
-    width: 100%;
-}
-.step-works-box .works-box-content{
-    width: 75%;
-}
-.works-box-content .heading-five{
-    color: #181223;
-    margin: 0 0 10px;
-}
-.works-box-content p{
-    color: #181223;
-    padding: 0 5px 0 0;
-    min-height: 100px;
-    max-height: 100px;
-    overflow-y: auto;
-}
-.works-box-content p::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.0);
-    border-radius: 0px;
-}
-.works-box-content p::-webkit-scrollbar{
-    width: 3px;
-    background: #b2b2b2;
-    border-radius: 0px;
-}
-.works-box-content p::-webkit-scrollbar-thumb{
-    background-color: #181223;
-    border-radius: 0px;
-}
-/*Step Works Section Css End Here*/
 
 /*Our Portfolio Section Css Start Here*/
 section.our-portfolio-wrap{
@@ -1523,108 +1718,6 @@ section.before-after-wrap{
 }
 .before-after-images .after-img img{}
 /*Before After Section Css End Here*/
-
-/*Portfolio Publish Section Css Start Here*/
-section.portfolio-publish-wrap{
-    background-image: url(../images/portfolio-published-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    padding: 50px 0;
-    position: relative;
-    z-index: 1;
-}
-.portfolio-publish-wrap::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #F6F6F6;
-    opacity: 0;
-    width: 100%;
-    z-index: -1;
-}
-.portfolio-publish-wrap .portfolio-publish-head{
-    width: 90%;
-    margin: 0 auto 50px;
-    text-align: center;
-}
-.portfolio-publish-head .heading-two{
-    color: #181223;
-    margin: 0 0 10px;
-}
-.portfolio-publish-head p{
-    color: #181223;
-}
-.portfolio-publish-wrap .portfolio-publish-inner{}
-.portfolio-publish-inner .portfolio-publish-buttons{
-    border-bottom: 2px solid #E90041;
-    padding: 0 0 30px;
-    margin: 0 0 30px;
-}
-.portfolio-publish-buttons ul.nav-pills{
-    justify-content: center;
-    align-items: center;
-}
-.portfolio-publish-buttons ul.nav-pills li.nav-item{
-    margin: 0 5px 10px;
-}
-.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
-    background: transparent;
-    color: #181223;
-    border: 2px solid transparent;
-    border-bottom: 2px solid #181223;
-    font-size: 16px;
-    font-weight: 600;
-    width: 175px;
-    height: 45px;
-    line-height: 25px;
-    border-radius: 0;
-    padding: 10px 10px;
-    margin: 0;
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .3s ease-in-out;
-}
-.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link.active,
-.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link:hover{
-    background: #E90041;
-    color: #fff;
-    border: 2px solid #E90041;
-}
-.portfolio-publish-wrap .portfolio-publish-tabitem{
-    margin: 0 0 40px;
-}
-.portfolio-publish-tabitem .portfolio-tabitem-inner{
-    position: relative;
-}
-.portfolio-tabitem-inner .portfolio-tabitem-content{}
-.portfolio-tabitem-content .heading-three{
-    color: #181223;
-    margin: 0 0 10px;
-}
-.portfolio-tabitem-content p{
-    color: #181223;
-}
-.portfolio-tabitem-content .website-main-buttons button.chat-btn{
-    background: #E90041;
-    color: #fff;
-    border: 2px solid #E90041;
-}
-.portfolio-tabitem-content .website-main-buttons button.chat-btn:hover{
-    background: transparent;
-    color: #E90041;
-    transform: scale(0.9);
-}
-.portfolio-tabitem-inner .portfolio-tabitem-img{
-    text-align: right;
-}
-.portfolio-tabitem-img img{}
-/*Portfolio Publish Section Css End Here*/
 
 
 /**************************************************************************
