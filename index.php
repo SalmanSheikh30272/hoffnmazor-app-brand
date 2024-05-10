@@ -368,9 +368,21 @@ $page = 'home';
     <section class="why-choose-wrap">
         <div class="container">
             <div class="why-choose-head">
-                <div class="choose-head-content">
-                    <h3 class="heading-three">Hire One of the Best Book Writing Companies</h3>
-                    <p>Your story isn’t a template – it a unique voyage waiting to unfold. We don’t promise perfection but authenticity. At our book writing agency, it’s not about the quantity of words but the quality of emotions they evoke. So, why choose us? Because in the world of storytellers, we’re the architects of the unforgettable narrative, and your story is our masterpiece in the making.</p>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7 col-sm-12 col-12">
+                        <div class="choose-head-content">
+                            <h3 class="heading-two">
+                                <span>Why Choose Us</span>
+                                The Preference Of Top Companies
+                            </h3>
+                            <p>At Hoff & Mazor, We Transform Brands By Generating Ideas, Building Products And Accelerating Growth. We Go The Extra Mile To Adopt Innovation, The Latest Technologies And Seamless Procedures Which Stands Us Out From The Competition.</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="choose-head-img">
+                            <img src="assets/images/why-choose-head-img.avif" data-src="assets/images/why-choose-head-img.avif" alt="Why Choose" width="65%" height="100%" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="why-choose-inner">

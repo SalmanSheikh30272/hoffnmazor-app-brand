@@ -966,20 +966,36 @@ section.award-brands-wrap{
 
 /*Why Choose Section Css Start Here*/
 section.why-choose-wrap{
-    background: #fff;
+    background: #f7ffff;
     padding: 50px 0;
 }
 .why-choose-wrap .why-choose-head{
     margin: 0 0 50px;
-    text-align: center;
 }
 .why-choose-head .choose-head-content{}
-.choose-head-content .heading-three{
-    color: #181223;
+.choose-head-content .heading-two span{
+    color: #02dfbf;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    margin: 0 0 5px;
+}
+.choose-head-content .heading-two{
+    color: #212529;
     margin: 0 0 10px;
 }
 .choose-head-content p{
-    color: #181223;
+    color: #212529;
+}
+.why-choose-head .choose-head-img{
+    position: relative;
+    text-align: right;
+}
+.choose-head-img img{
+    width: 65%;
+    position: absolute;
+    top: -125px;
+    right: -125px;
 }
 .why-choose-wrap .why-choose-inner{}
 .why-choose-inner .why-choose-box{
