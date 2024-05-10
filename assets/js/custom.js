@@ -32,7 +32,7 @@ $('.bandown-brands-item').slick({
   arrows: false,
   infinite: true,
   speed: 400,
-  slidesToShow: 7,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -40,7 +40,7 @@ $('.bandown-brands-item').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -66,42 +66,42 @@ $('.bandown-brands-item').slick({
 //***** Banner Down Brands Slider JS End Here *****//
 
 //*****  Service Offer Slider JS Start Here *****//
-$('.service-offer-slider').slick({
-  dots: false,
-  arrow:false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
+// $('.service-offer-slider').slick({
+//   dots: false,
+//   arrow:false,
+//   infinite: true,
+//   speed: 500,
+//   slidesToShow: 4,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 1000,
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 3,
+//         slidesToScroll: 1,
+//         infinite: true,
+//         dots: false
+//       }
+//     },
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 1
+//       }
+//     },
+//     {
+//       breakpoint: 576,
+//       settings: {
+//         slidesToShow: 1,
+//         slidesToScroll: 1
+//       }
+//     }
 
-  ]
-});
+//   ]
+// });
 //***** Service Offer Slider JS End Here *****//
 
 //*****  Our Portfolio Slider JS Start Here *****//

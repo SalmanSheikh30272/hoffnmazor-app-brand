@@ -640,6 +640,37 @@ section.service-offer-wrap{
 }
 /*Service Offer Section Css End Here*/
 
+/*Banner Down Brands Section Css Start Here*/
+section.bandown-brands-wrap{
+    position: relative;
+    padding: 30px 0;
+}
+.bandown-brands-wrap .bandown-brands-head{
+    width: 90%;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.bandown-brands-head .heading-two{
+    color: #212529;
+    margin: 0 0 10px;
+}
+.bandown-brands-head p{
+    color: #212529;
+}
+.bandown-brands-wrap .bandown-brands-inner{}
+.bandown-brands-inner .bandown-brands-item{}
+.bandown-brands-item .slick-arrow{
+    display: none !important;
+}
+.bandown-brands-item .brands-item-img{
+    margin: 0 10px;
+}
+.brands-item-img img{
+    object-fit: scale-down;
+    margin: 0 auto;
+}
+/*Banner Down Brands Section Css End Here*/
+
 /*Main CTA Section Css Start Here*/
 section.cta-main-wrap{
     padding: 50px 0;
@@ -680,32 +711,6 @@ section.cta-main-wrap{
     width: 75%;
 }
 /*Main CTA Section Css End Here*/
-
-/*Banner Down Brands Section Css Start Here*/
-section.bandown-brands-wrap{
-    position: relative;
-    padding: 30px 0;
-}
-.bandown-brands-wrap .bandown-brands-inner{}
-.bandown-brands-inner .heading-four{
-    color: #fff;
-    margin: 0 0 20px;
-    text-align: center;
-}
-.bandown-brands-inner .bandown-brands-item{}
-.bandown-brands-item .slick-arrow{
-    display: none !important;
-}
-.bandown-brands-item .brands-item-img{
-    margin: 0 10px;
-}
-.brands-item-img img{
-    height: 50px;
-    object-fit: scale-down;
-    margin: 0 auto;
-    filter: brightness(0) saturate(100%) invert(6%) sepia(10%) saturate(4077%) hue-rotate(222deg) brightness(88%) contrast(94%);
-}
-/*Banner Down Brands Section Css End Here*/
 
 /*Why Choose Section Css Start Here*/
 section.why-choose-wrap{

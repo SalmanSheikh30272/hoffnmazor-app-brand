@@ -218,6 +218,26 @@ $page = 'home';
     </section>
     <!-- Service Offer Section End Here -->
 
+    <!-- Banner Down Brands Section Start Here -->
+    <section class="bandown-brands-wrap">
+        <div class="container">
+            <div class="bandown-brands-head">
+                <h5 class="heading-two">WE PARTNER WITH TOP BRANDS</h5>
+                <p>Hoff & Mazor has a partnership with these leading enterprise technology brands to deliver an innovative and seamless experience to our clients.</p>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bandown-brands-inner">
+                        <!-- Banner Down Brands Include Here -->
+                        <?php include 'includes/sections/banner-down.php'; ?>
+                        <!-- Banner Down Brands Include Here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- Banner Down Brands Section End Here -->
+
     <!-- Main CTA Section Start Here -->
     <section class="cta-main-wrap">
         <div class="container">
