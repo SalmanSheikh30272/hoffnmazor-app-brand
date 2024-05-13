@@ -389,45 +389,53 @@ $page = 'home';
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="why-choose-box">
-                            <div class="choose-box-img">
-                                <img src="assets/images/service-icons/marketing-startegy.png" alt="Quality Work" class="img-fluid">
+                            <div class="choose-box-head">
+                                <div class="choose-box-img">
+                                <img src="assets/images/why-choose-icons/customer-relation.avif" data-src="assets/images/why-choose-icons/customer-relation.avif" alt="Relationship" width="60" height="60" class="img-fluid">
+                                </div>
+                                <h4 class="heading-three">Customer Relationship</h4>
                             </div>
                             <div class="choose-box-content">
-                                <h4 class="heading-five">Quality Work</h4>
-                                <p>Its quality over quantity for us. We believe in providing our clients with the best possible outcome.</p>
+                                <p>Our team of developers are proficient in creating a niche-tailored app for your brand which enhances your relationship with the customers. Get an app designed for your brand today!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="why-choose-box">
-                            <div class="choose-box-img">
-                                <img src="assets/images/service-icons/time.png" alt="Time Deliver" class="img-fluid">
+                            <div class="choose-box-head">
+                                <div class="choose-box-img">
+                                <img src="assets/images/why-choose-icons/stronger-brand.avif" data-src="assets/images/why-choose-icons/stronger-brand.avif" alt="Stronger Brand" width="60" height="60" class="img-fluid">
+                                </div>
+                                <h4 class="heading-three">Stronger Brand</h4>
                             </div>
                             <div class="choose-box-content">
-                                <h4 class="heading-five">Timely Delivery</h4>
-                                <p>Missed the deadline? Not our thing! We are quick and so we complete every book with in the promised timeframe.</p>
+                                <p>The mission of our company is to create apps for our clients that can build credibility, familiarity and trust with their customers. Resultantly, our clients enjoy a stronger brand with enhanced brand awareness and increased customer loyalty.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="why-choose-box">
-                            <div class="choose-box-img">
-                                <img src="assets/images/service-icons/patnership.png" alt="Satisfaction" class="img-fluid">
+                            <div class="choose-box-head">
+                                <div class="choose-box-img">
+                                <img src="assets/images/why-choose-icons/insights.avif" data-src="assets/images/why-choose-icons/insights.avif" alt="Insights" width="60" height="60" class="img-fluid">
+                                </div>
+                                <h4 class="heading-three">Customer Insights</h4>
                             </div>
                             <div class="choose-box-content">
-                                <h4 class="heading-five">Customer Satisfaction</h4>
-                                <p>Your approval is our top most priority. We provide multiple revisions till you’re happy with the final outcome.</p>
+                                <p>Customer data is one of the most important marketing tools that brands can use to improve their products and target customers more efficiently. Design an app with us and enjoy the treasure of customer insights.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="why-choose-box">
-                            <div class="choose-box-img">
-                                <img src="assets/images/service-icons/afford.png" alt="Ownership" class="img-fluid">
+                            <div class="choose-box-head">
+                                <div class="choose-box-img">
+                                <img src="assets/images/why-choose-icons/competitive.avif" data-src="assets/images/why-choose-icons/competitive.avif" alt="Competitive" width="60" height="60" class="img-fluid">
+                                </div>
+                                <h4 class="heading-three">Competitive Edge</h4>
                             </div>
                             <div class="choose-box-content">
-                                <h4 class="heading-five">100% Ownership</h4>
-                                <p>We provide you with all the ownership rights of the book after completion. Who wrote the book? You wrote the book.</p>
+                                <p>In this age of cut-throat competition, brands find it hard to survive. At Hoff & Mazor, we are experts in transforming the digital presence of our clients to give them a competitive edge in the market. Hire us to remodel your brand.</p>
                             </div>
                         </div>
                     </div>

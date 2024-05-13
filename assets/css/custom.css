@@ -997,68 +997,33 @@ section.why-choose-wrap{
     top: -125px;
     right: -125px;
 }
-.why-choose-wrap .why-choose-inner{}
-.why-choose-inner .why-choose-box{
-    padding: 20px 20px;
-    margin: 0 0 20px;
+.why-choose-wrap .why-choose-inner{
+    padding: 40px 40px;
+    border-radius: 50px;
     box-shadow: 0 5px 20px -5px #b2b2b2;
-    position: relative;
-    z-index: 1;
+}
+.why-choose-inner .why-choose-box{
+    margin: 0 0 40px;
+}
+.why-choose-box .choose-box-head{
     display: flex;
+    align-items: center;
+    margin: 0 0 20px;
 }
-.why-choose-box::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 0px;
-    height: 100%;
-    background: #181223;
-    z-index: -1;
-    transition: all .5s ease-in-out;
-}
-.why-choose-box:hover::after{
-    width: 100%;
-    height: 100%;
-}
-.why-choose-box .choose-box-img{
+.choose-box-head .choose-box-img{
     margin: 0 20px 0 0;
 }
 .choose-box-img img{
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+    width: 60px;
+    height: 60px;
+}
+.choose-box-head .heading-three{
+    color: #212529;
+    margin: 0;
 }
 .why-choose-box .choose-box-content{}
-.choose-box-content::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.0);
-    border-radius: 0px;
-}
-.choose-box-content::-webkit-scrollbar{
-    width: 3px;
-    background: #b2b2b2;
-    border-radius: 0px;
-}
-.choose-box-content::-webkit-scrollbar-thumb{
-    background-color: #E90041;
-    border-radius: 0px;
-}
-.choose-box-content .heading-five{
-    color: #181223;
-    margin: 0 0 10px;
-    transition: all .3s ease-in-out;
-}
-.why-choose-box:hover .choose-box-content .heading-five{
-    color: #fff;
-}
 .choose-box-content p{
-    color: #181223;
-    transition: all .3s ease-in-out;
-}
-.why-choose-box:hover .choose-box-content p{
-    color: #fff;
+    color: #212529;
 }
 /*Why Choose Section Css End Here*/
 
