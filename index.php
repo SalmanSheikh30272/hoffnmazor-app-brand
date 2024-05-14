@@ -13,14 +13,9 @@ $page = 'home';
                     <div class="banner-main-content">
                         <h1 class="heading-one">BECOME NOTICEABLE WITH THE BEST APP DEVELOPMENT SERVICES</h1>
                         <p>Our team of app developers has helped 500+ clients build a strong brand and enhance customer loyalty.</p>
-                        <div class="banner-brands">
-                            <div class="banner-brands-items">
-                                <img src="assets/images/banner-logos/trustpilot-black.webp" data-src="assets/images/banner-logos/trustpilot-black.webp" alt="Trustpilot" width="140" height="40" class="img-fluid">
-                                <img src="assets/images/banner-logos/good-firms-new.webp" data-src="assets/images/banner-logos/good-firms-new.webp" alt="Good Firms" width="140" height="40" class="img-fluid">
-                                <img src="assets/images/banner-logos/bark-logo.webp" data-src="assets/images/banner-logos/bark-logo.webp" alt="Bark" width="140" height="40" class="img-fluid">
-                                <img src="assets/images/banner-logos/clutch-logo.webp" data-src="assets/images/banner-logos/clutch-logo.webp" alt="Clutch" width="140" height="40" class="img-fluid">
-                            </div>
-                        </div>
+                        <!-- Banner Brands Logos Include Here -->
+                        <?php include 'includes/sections/banner-brands-logos.php'; ?>
+                        <!-- Banner Brands Logos Include Here -->
                         <div class="website-main-buttons">
                             <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
                             <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat</button>
@@ -255,7 +250,7 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="cta-main-img">
-                            <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Img" width="55%" height="auto">
+                            <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Main" width="55%" height="auto" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -391,7 +386,7 @@ $page = 'home';
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/customer-relation.avif" data-src="assets/images/why-choose-icons/customer-relation.avif" alt="Relationship" width="60" height="60" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/customer-relation.avif" data-src="assets/images/why-choose-icons/customer-relation.avif" alt="Relationship" width="60px" height="60px" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Customer Relationship</h4>
                             </div>
@@ -404,7 +399,7 @@ $page = 'home';
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/stronger-brand.avif" data-src="assets/images/why-choose-icons/stronger-brand.avif" alt="Stronger Brand" width="60" height="60" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/stronger-brand.avif" data-src="assets/images/why-choose-icons/stronger-brand.avif" alt="Stronger Brand" width="60px" height="60px" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Stronger Brand</h4>
                             </div>
@@ -417,7 +412,7 @@ $page = 'home';
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/insights.avif" data-src="assets/images/why-choose-icons/insights.avif" alt="Insights" width="60" height="60" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/insights.avif" data-src="assets/images/why-choose-icons/insights.avif" alt="Insights" width="60px" height="60px" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Customer Insights</h4>
                             </div>
@@ -430,7 +425,7 @@ $page = 'home';
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/competitive.avif" data-src="assets/images/why-choose-icons/competitive.avif" alt="Competitive" width="60" height="60" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/competitive.avif" data-src="assets/images/why-choose-icons/competitive.avif" alt="Competitive" width="60px" height="60px" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Competitive Edge</h4>
                             </div>
@@ -449,7 +444,7 @@ $page = 'home';
     <section class="cta-banner-wrap">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="cta-banner-content">
                         <h3 class="heading-three">Planning To Publish A Book? Have Our Team Proofread It First!</h3>
                         <p>Hire professional book editing services to ensure your readers enjoy the masterpiece that is your book!</p>
@@ -459,39 +454,15 @@ $page = 'home';
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="cta-banner-img">
-                        <img src="assets/images/cta-ban-editing-img.png" alt="CTA Banner Img" class="img-fluid box2">
+                    <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Img" width="55%" height="auto" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- CTA Banner Section End Here -->
-
-    <!-- Main CTA Section Start Here -->
-    <section class="cta-main-wrap">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
-                    <div class="cta-main-content" >
-                        <h3 class="heading-three">Top-notch book writing company – Writing Perfection</h3>
-                        <p>Dreaming to publish your own book? Well, all you need is our expert book writers for hire who can bring your dreams to life.</p>
-                        <div class="website-main-buttons">
-                            <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat!</button>
-                            <a href="tel:<?php echo $locNumber; ?>" class="call-btn"><?php echo $locNumber; ?></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
-                    <div class="cta-main-img">
-                        <img src="assets/images/process-img-publishing.png" alt="CTA Banner Img" class="img-fluid box2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Main CTA Section End Here -->
 
     <!--FAQS Question Section Start Here -->
     <section class="faqs-sec-wrap">

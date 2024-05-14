@@ -45,7 +45,7 @@ h6{
 
 p,
 ul{
-    font-family: "Gilroy-SemiBold";
+    font-family: "Gilroy-Medium";
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1016,6 +1016,7 @@ section.why-choose-wrap{
 .choose-box-img img{
     width: 60px;
     height: 60px;
+    object-fit: contain;
 }
 .choose-box-head .heading-three{
     color: #212529;

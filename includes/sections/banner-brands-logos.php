@@ -1,17 +1,8 @@
 <div class="banner-brands">
-    <span>Our Customers Have Reviewed Us On:</span>
     <div class="banner-brands-items">
-        <a href="https://www.trustpilot.com/review/penguinbookwriters.com" target="_blank">
-            <img src="assets/images/brand-logos/trustpilot.png" alt="Trustpilot" class="img-fluid">
-        </a>
-        <a href="void:;">
-            <img src="assets/images/brand-logos/clutch.png" alt="Clutch" class="img-fluid">
-        </a>
-        <a href="https://www.sitejabber.com/reviews/penguinbookwriters.com" target="_blank">
-            <img src="assets/images/brand-logos/sitejabber.png" alt="SideJabber" class="img-fluid">
-        </a>
-        <a href="https://www.reviews.io/company-reviews/store/penguinbookwriters-com" target="_blank">
-            <img src="assets/images/brand-logos/review-io.png" alt="Review IO" class="img-fluid">
-        </a>
+        <img src="assets/images/banner-logos/trustpilot-black.webp" data-src="assets/images/banner-logos/trustpilot-black.webp" alt="Trustpilot" width="140px" height="40px" class="img-fluid">
+        <img src="assets/images/banner-logos/good-firms-new.webp" data-src="assets/images/banner-logos/good-firms-new.webp" alt="Good Firms" width="140px" height="40px" class="img-fluid">
+        <img src="assets/images/banner-logos/bark-logo.webp" data-src="assets/images/banner-logos/bark-logo.webp" alt="Bark" width="140px" height="40px" class="img-fluid">
+        <img src="assets/images/banner-logos/clutch-logo.webp" data-src="assets/images/banner-logos/clutch-logo.webp" alt="Clutch" width="140px" height="40px" class="img-fluid">
     </div>
 </div>
