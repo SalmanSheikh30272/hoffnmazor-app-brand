@@ -673,7 +673,9 @@ section.bandown-brands-wrap{
     margin: 0 10px;
 }
 .brands-item-img img{
-    object-fit: scale-down;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
     margin: 0 auto;
 }
 /*Banner Down Brands Section Css End Here*/
@@ -1030,50 +1032,53 @@ section.why-choose-wrap{
 
 /*CTA Banner Section Css Start Here*/
 section.cta-banner-wrap{
-    background-image: url(../images/cta-ban-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    padding: 50px 0 200px;
+    padding: 50px 0;
+}
+.cta-banner-wrap .cta-banner-inner{
+    background: #092b35;
+    padding: 30px 30px;
+    border-radius: 35px 35px;
     position: relative;
     z-index: 1;
 }
 .cta-banner-wrap .cta-banner-content{}
 .cta-banner-content .heading-three{
-    color: #e90041;
-    text-shadow: 2px 2px 3px #181223;
-    margin: 0 0 20px;
+    color: #fff;
+    margin: 0 0 10px;
 }
 .cta-banner-content p{
-    color: #181223;
+    color: #fff;
 }
 .cta-banner-content .website-main-buttons{}
-.cta-banner-content .website-main-buttons button.chat-btn{
-    background: linear-gradient(to right, #181223 50%, #e90041 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
+.cta-banner-content .website-main-buttons button.popup-btn{
+    background: #02dfbf;
     color: #fff;
-    border: 2px solid #e90041;
+    border: 2px solid #02dfbf;
+}
+.cta-banner-content .website-main-buttons button.popup-btn:hover{
+    background: #1f7468;
+    border: 2px solid #1f7468;
+}
+.cta-banner-content .website-main-buttons button.chat-btn{
+    background: transparent;
+    color: #02dfbf;
+    border: 2px solid #02dfbf;
 }
 .cta-banner-content .website-main-buttons button.chat-btn:hover{
-    background-position: left bottom;
-}
-.cta-banner-content .website-main-buttons a.call-btn{
-    background: linear-gradient(to right, #e90041 50%, #181223 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
+    background: #1f7468;
     color: #fff;
-    border: 2px solid #181223;
-    width: 200px;
-}
-.cta-banner-content .website-main-buttons a.call-btn:hover{
-    background-position: left bottom;
+    border: 2px solid #1f7468;
 }
 .cta-banner-wrap .cta-banner-img{
     position: relative;
     text-align: center;
 }
-.cta-banner-wrap .cta-banner-img img{}
+.cta-banner-wrap .cta-banner-img img{
+    position: absolute;
+    width: 55%;
+    top: -190px;
+    left: 35%;
+}
 /*CTA Banner Section Css End Here*/
 
 /*Our Portfolio Section Css Start Here*/

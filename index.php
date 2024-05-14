@@ -240,7 +240,7 @@ $page = 'home';
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="cta-main-content" >
-                            <h5 class="heading-three">Let’s Discuss Your Project</h5>
+                            <h3 class="heading-three">Let’s Discuss Your Project</h3>
                             <p>Get Free Consultation And Let Us Know Your Project Idea To Turn It Into An Amazing</p>
                             <div class="website-main-buttons">
                                 <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
@@ -250,7 +250,7 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="cta-main-img">
-                            <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Main" width="55%" height="auto" class="img-fluid">
+                            <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Img" width="55%" height="auto" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -443,20 +443,22 @@ $page = 'home';
     <!-- CTA Banner Section Start Here -->
     <section class="cta-banner-wrap">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="cta-banner-content">
-                        <h3 class="heading-three">Planning To Publish A Book? Have Our Team Proofread It First!</h3>
-                        <p>Hire professional book editing services to ensure your readers enjoy the masterpiece that is your book!</p>
-                        <div class="website-main-buttons">
-                            <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Start Live Chat</button>
-                            <a href="tel:<?php echo $locNumber; ?>" class="call-btn"><?php echo $locNumber; ?></a>
+            <div class="cta-banner-inner">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="cta-banner-content">
+                            <h3 class="heading-three">Let’s Discuss Your Project</h3>
+                            <p>Get Free Consultation And Let Us Know Your Project Idea To Turn It Into An Amazing Digital Product.</p>
+                            <div class="website-main-buttons">
+                                <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get A Quote</button>
+                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="cta-banner-img">
-                    <img src="assets/images/cta-main-img.avif" data-src="assets/images/cta-main-img.avif" alt="CTA Img" width="55%" height="auto" class="img-fluid">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="cta-banner-img">
+                            <img src="assets/images/cta-banner-img.avif" data-src="assets/images/cta-banner-img.avif" alt="CTA Img" width="55%" height="auto" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
