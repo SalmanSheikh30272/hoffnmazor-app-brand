@@ -517,15 +517,21 @@ $page = 'home';
                             <div class="tab-pane fade show active" id="pills-img" role="tabpanel" aria-labelledby="pills-img-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
                                     <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/process-section/android-process.png" alt="img" class="img-fluid">
+                                        <img src="assets/images/faqs-sec-img.avif" data-src="assets/images/faqs-sec-img.avif" alt="FAQS Img" width="100%" height="100%" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-q1" role="tabpanel" aria-labelledby="pills-q1-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
                                     <div class="faqs-tab-inner-content">
-                                        <h5 class="heading-three">Custom IOS App Development</h5>
                                         <p>The process of app design and development involves several stages, starting from conceptualization to deployment. It typically includes the following steps: research and analysis, defining requirements, wireframing and prototyping, UI/UX design, coding and development, testing and quality assurance, deployment, and ongoing maintenance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-q2" role="tabpanel" aria-labelledby="pills-q2-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-content">
+                                        <p>To find the right app development company, consider the following factors:</p>
                                         <ul>
                                             <li>
                                                 <p><b>Experience and Expertise:</b> Look for a company with a proven track record and experience in app design and development. Check their portfolio and client testimonials to assess their capabilities.</p>
@@ -540,174 +546,79 @@ $page = 'home';
                                                 <p><b>Quality Assurance:</b> Check if the company follows robust quality assurance practices to ensure the delivery of high-quality apps.</p>
                                             </li>
                                             <li>
-                                                <b>Cost and Timeline:</b>
-                                                <p>Cost and Timeline: Consider the company's pricing structure and estimated timeline for the project.</p>
+                                                <p><b>Cost and Timeline:</b> Consider the company's pricing structure and estimated timeline for the project.</p>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-q2" role="tabpanel" aria-labelledby="pills-q2-tab" tabindex="0">
-                                <div class="faqs-tab-inner">
-                                    <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/process-section/game-process.webp" alt="img" class="img-fluid">
-                                    </div>
-                                    <div class="faqs-tab-inner-content">
-                                        <h3>Game Development Services</h3>
-                                        <p>Web Designers LLC helps brands build a seamless product that meets business and market needs effectively through an engaging user experience to further develop loyalty.</p>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
-                                                    Mobile Game Development With Unity
-                                                </h4>
-                                                <p>Unity is frequently the engine of choice for mobile game firms looking for quick and dependable game production.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
-                                                    AR/VR Game Development
-                                                </h4>
-                                                <p>Augmented reality is a novel way to entice choosy players by providing more engagement to your software.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
-                                                    2D And 3D Mobile Game Development
-                                                </h4>
-                                                <p>Millions of Android and iOS users have driven developers to remake 2D and 3D games.</p>
-                                            </div>
-                                        </div>
-                                        <div class="website-main-buttons">
-                                            <button class="chat-btn">Let's Chat With Us</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="tab-pane fade" id="pills-q3" role="tabpanel" aria-labelledby="pills-q3-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
-                                    <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
-                                    </div>
                                     <div class="faqs-tab-inner-content">
-                                        <h3>Services For AR/VR App Development</h3>
-                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
-                                                    3D Modeling
-                                                </h4>
-                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
-                                                    Gesture And Motion
-                                                </h4>
-                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
-                                                    AR Apps That Are Location-Based
-                                                </h4>
-                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
-                                            </div>
-                                        </div>
-                                        <div class="website-main-buttons">
-                                            <button class="chat-btn">Let's Chat With Us</button>
-                                        </div>
+                                        <p>To hire app developers online, follow these steps: Define your requirements: Clearly outline your app's features, platform, and technology preferences.</p>
+                                        <ul>
+                                            <li>
+                                                <p><b>Research and shortlist:</b> Explore online platforms, freelancing websites, or professional networks to find potential app developers.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Evaluate portfolios and reviews:</b>Review the portfolios, case studies, and client feedback to assess the developer's skills and experience.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Conduct interviews:</b> Conduct interviews or video calls to discuss the project, assess their technical expertise, and gauge communication skills.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Discuss terms and agreements:</b> Negotiate project terms, including scope, timeline, pricing, and ownership rights.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Sign a contract</b> Once satisfied, sign a contract that includes the project details, milestones, and payment terms.</p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-q4" role="tabpanel" aria-labelledby="pills-q4-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
-                                    <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
-                                    </div>
                                     <div class="faqs-tab-inner-content">
-                                        <h3>Services For AR/VR App Development</h3>
-                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
-                                                    3D Modeling
-                                                </h4>
-                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
-                                                    Gesture And Motion
-                                                </h4>
-                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
-                                                    AR Apps That Are Location-Based
-                                                </h4>
-                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
-                                            </div>
-                                        </div>
-                                        <div class="website-main-buttons">
-                                            <button class="chat-btn">Let's Chat With Us</button>
-                                        </div>
+                                        <p>An app design and development agency offers a range of services, including:</p>
+                                        <ul>
+                                            <li>
+                                                <p><b>App Conceptualization and Strategy:</b> Helping clients refine their app ideas, define the target audience, and plan the app's features and functionality.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>UI/UX Design:</b> Creating visually appealing and user-friendly app interfaces that enhance the overall user experience.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>App Development:</b> Building the app using appropriate programming languages, frameworks, and technologies for the desired platforms (iOS, Android, etc.).</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Quality Assurance and Testing:</b> Conducting comprehensive testing to identify and fix any bugs, ensuring the app functions seamlessly.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Deployment and Support:</b> Assisting with app submission to app stores and providing ongoing support, updates, and maintenance.</p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-q5" role="tabpanel" aria-labelledby="pills-q5-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
-                                    <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
-                                    </div>
                                     <div class="faqs-tab-inner-content">
-                                        <h3>Services For AR/VR App Development</h3>
-                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
-                                                    3D Modeling
-                                                </h4>
-                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
-                                                    Gesture And Motion
-                                                </h4>
-                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faqs-tab-inner-item">
-                                            <div class="faqs-inneritesms-content">
-                                                <h4>
-                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
-                                                    AR Apps That Are Location-Based
-                                                </h4>
-                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
-                                            </div>
-                                        </div>
-                                        <div class="website-main-buttons">
-                                            <button class="chat-btn">Let's Chat With Us</button>
-                                        </div>
+                                        <p>You can find reliable application developers through various channels:</p>
+                                        <ul>
+                                            <li>
+                                                <p><b>Online Platforms:</b> Explore online platforms such as LinkedIn, Upwork, and Freelancer, where you can find experienced and verified app developers.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Professional Networks:</b> Tap into your professional network, attend industry events, and engage with relevant communities to connect with skilled developers.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Referrals:</b> Seek recommendations from colleagues, friends, or business partners who have worked with reliable app developers in the past.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>App Development Companies:</b> Consider partnering with established app development companies that have a team of experienced developers and a proven track record.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Remember to assess their expertise, portfolio, client reviews, and overall reputation before making a hiring decision.</p>
                                     </div>
                                 </div>
                             </div>
