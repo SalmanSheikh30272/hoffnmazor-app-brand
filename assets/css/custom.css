@@ -1032,6 +1032,7 @@ section.why-choose-wrap{
 
 /*CTA Banner Section Css Start Here*/
 section.cta-banner-wrap{
+    background: #f7ffff;
     padding: 50px 0;
 }
 .cta-banner-wrap .cta-banner-inner{
@@ -1075,11 +1076,174 @@ section.cta-banner-wrap{
 }
 .cta-banner-wrap .cta-banner-img img{
     position: absolute;
-    width: 55%;
+    width: 50%;
     top: -190px;
     left: 35%;
 }
 /*CTA Banner Section Css End Here*/
+
+/*Genre industry Section Css Start Here*/
+section.genre-industry-wrap{
+    background: #f7ffff;
+    padding: 50px 0;
+}
+.genre-industry-wrap .genre-industry-head{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.genre-industry-head .heading-two{
+    color: #212529;
+    margin: 0 0 10px;
+}
+.genre-industry-head p{
+    color: #212529;
+}
+.genre-industry-wrap .genre-industry-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.genre-industry-inner .genre-industry-box{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.genre-industry-box img{
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
+.genre-industry-box a{
+    font-family: "Gilroy-bOLD";
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 10PX;
+    text-transform: capitalize;
+    display: block;
+}
+/*Genre industry Section Css End Here*/
+
+/* FAQS Section Css Start Here*/
+section.faqs-sec-wrap{
+    padding: 50px 0;
+}
+.faqs-sec-wrap .container-fluid{
+    padding: 0 0 0 100px;
+}
+.faqs-sec-wrap .faqs-sec-head{
+    margin: 0 0 30px;
+}
+.faqs-sec-head .heading-two{
+    color: #212529;
+    margin: 0 0 10px;
+}
+.faqs-sec-head p{
+    color: #212529;
+}
+.faqs-sec-wrap .faqs-tab-list{
+    border-left: 3px solid #7f3e7b;
+    padding: 30px 20px 30px 0;
+}
+.faqs-tab-list ul.nav-pills{
+    display: inline-grid;
+    width: 100%
+}
+.faqs-tab-list ul.nav-pills li.nav-item{
+    margin: 0 0 30px
+}
+.faqs-tab-list ul.nav-pills li.nav-item:last-child{
+    margin: 0;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link{
+    background: #fff;
+    color: #321a31;
+    border: 2px solid #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 10px;
+    position: relative;
+    text-align: left;
+    transition: all .3s ease-in-out;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link.active{
+    background: #7f3e7b;
+    color: #fff;
+    border: 2px solid #7f3e7b;
+
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    left: 10px;
+    bottom: 0;
+    border-radius: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link.active::after{
+    opacity: 1
+}
+.faqs-sec-wrap .faqs-tab-content{
+    background: #7f3e7b;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 0 0 20px;
+}
+.faqs-tab-content .faqs-tab-inner{
+    display: flex;
+    align-items: center;
+}
+.faqs-tab-inner .faqs-tab-inner-img{
+    width: 50%;
+    margin: 0 15px 0;
+    text-align: center;
+}
+.faqs-tab-inner-img img{}
+.faqs-tab-inner .faqs-tab-inner-content{
+    width: 100%
+}
+.faqs-tab-inner-content h3{
+    color: #fff;
+    margin: 0 0 10px;
+    text-shadow: 1px 5px 5px #321a31;
+}
+.faqs-tab-inner-content p{
+    color: #fff;
+}
+.faqs-tab-inner-content .faqs-tab-inner-item{
+    margin: 20px 0;
+}
+.faqs-tab-inner-item .faqs-inneritesms-content{}
+.faqs-inneritesms-content h4{
+    color: #fff;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.faqs-inneritesms-content h4 img{
+    width: 60px;
+    filter: brightness(0) saturate(100%) invert(75%) sepia(23%) saturate(0%) hue-rotate(281deg) brightness(107%) contrast(89%);
+    margin: 0 10px 0 0;
+}
+.faqs-inneritesms-content p{
+    color: #fff;
+}
+.faqs-tab-inner-content .website-main-buttons button.chat-btn{
+    background: #321a31;
+    color: #7f3e7b;
+    border: 2px solid #321a31;
+}
+.faqs-tab-inner-content .website-main-buttons button.chat-btn:hover{
+    border: 2px solid #fff;
+    color: #fff;
+}
+/*FAQS Section Section Css End Here*/
 
 /*Our Portfolio Section Css Start Here*/
 section.our-portfolio-wrap{
@@ -1162,98 +1326,6 @@ section.our-portfolio-wrap{
 }
 .portfolio-books-box a img{}
 /*Our Portfolio Section Css End Here*/
-
-/*FAQS Section Css Start Here*/
-section.faqs-sec-wrap{
-    padding: 50px 0;
-}
-.faqs-sec-wrap .faqs-sec-img{
-    background-image: url(../images/cta-ban-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 100%;
-    height: 550px;
-    padding: 30px 20px;
-    text-align: center;
-}
-.faqs-sec-img .heading-four{
-    color: #E90041;
-    text-shadow: 2px 2px 3px #181223;
-    margin: 0 0 20px;
-}
-.faqs-sec-img img{}
-.faqs-sec-wrap .faqs-sec-item{}
-.faqs-sec-item .faqs-sec-head{
-    margin: 0 0 30px;
-}
-.faqs-sec-head .heading-two{
-    color: #181223;
-    margin: 0 0 10px;
-}
-.faqs-sec-head p{
-    color: #181223;
-    margin: 0 0 10px;
-}
-.faqs-sec-item .accordion .accordion-item{
-    margin: 0 0 0px;
-    border-radius: 0px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #181223;
-}
-.faqs-sec-item .accordion .accordion-item .accordion-header{}
-.faqs-sec-item .accordion-item .accordion-header button.accordion-button{
-    font-family: "SF-Pro-Display-SemiBold";
-    background: transparent;
-    color: #181223;
-    font-size: 22px;
-    line-height: 30px;
-    box-shadow: none;
-    border-radius: 0px;
-    padding: 10px 10px 10px 30px;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    position: relative;
-}
-.faqs-sec-item .accordion-item .accordion-header .accordion-button:not(.collapsed){
-    color: #E90041;
-}
-.faqs-sec-item .accordion-item .accordion-header .accordion-button::after{
-    content: '\2b';
-    background-image: none;
-    background: transparent;
-    color: #181223;
-    font-size: 24px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 0px;
-    text-align: center;
-    transform: rotate(-90deg);
-    transition: all .3s ease-in-out;
-    position: absolute;
-    left: 0;
-}
-.faqs-sec-item .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{
-    content: '\f068';
-    font-family: 'Font Awesome 6 Pro';
-    color: #E90041;
-    font-size: 20px;
-    transform: rotate(0deg);
-}
-.faqs-sec-item .accordion-item .accordion-collapse{}
-.faqs-sec-item .accordion-item .accordion-collapse .accordion-body{
-    font-family: "SF-Pro-Display-Regular";
-    background: transparent;
-    color: #181223;
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0;
-    padding: 10px 10px;
-    border-radius: 0px;
-}
-/*FAQS Section Css End Here*/
 
 /*Customer FeedBack Section Css Start Here*/
 section.customer-feedback-wrap{

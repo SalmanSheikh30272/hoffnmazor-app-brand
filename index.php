@@ -457,7 +457,7 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="cta-banner-img">
-                            <img src="assets/images/cta-banner-img.avif" data-src="assets/images/cta-banner-img.avif" alt="CTA Img" width="55%" height="auto" class="img-fluid">
+                            <img src="assets/images/cta-banner-img.avif" data-src="assets/images/cta-banner-img.avif" alt="CTA Img" width="50%" height="auto" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -466,91 +466,248 @@ $page = 'home';
     </section>
     <!-- CTA Banner Section End Here -->
 
-    <!--FAQS Question Section Start Here -->
-    <section class="faqs-sec-wrap">
+    <!-- Genre industry Section Start Here -->
+    <section class="genre-industry-wrap">
         <div class="container">
+            <div class="genre-industry-head">
+                <h5 class="heading-two">You Name It. We Serve It.</h5>
+                <p>We Have A Diversified Range Of Clientele Pertaining To Different Industries. We Work With Every Leading Industry, But These Are Our Specialities:</p>
+            </div>
+            <!-- Genre Industry Inner Include Here -->
+            <?php include 'includes/sections/genre-industry-inner.php'; ?>
+            <!-- Genre Industry Inner Include Here -->
+        </div>
+    </section>
+    <!-- Genre industry Section End Here -->
+
+    <!-- FAQS Section Start Here -->
+    <section class="faqs-sec-wrap">
+        <div class="container-fluid">
+            <div class="faqs-sec-head">
+                <h4 class="heading-two">Frequently Asked Questions!</h4>
+            </div>
             <div class="row align-items-center">
-                <div class="col-xx-4 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
-                    <div class="faqs-sec-img">
-                        <h3 class="heading-four">The Penguin Book Writers Has All The Answer You Wants?</h3>
-                        <img src="assets/images/penguin-faqs.png" alt="Penguin Img" class="img-fluid">
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
+                    <div class="faqs-tab-list">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active d-none" id="pills-img-tab" data-bs-toggle="pill" data-bs-target="#pills-img" type="button" role="tab" aria-controls="pills-img" aria-selected="true"></button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-q1-tab" data-bs-toggle="pill" data-bs-target="#pills-q1" type="button" role="tab" aria-controls="pills-q1" aria-selected="false">What Is The Process Involved In App Design And Development?</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-q2-tab" data-bs-toggle="pill" data-bs-target="#pills-q2" type="button" role="tab" aria-controls="pills-q2" aria-selected="false">How Can I Find The Right App Development Company?</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-q3-tab" data-bs-toggle="pill" data-bs-target="#pills-q3" type="button" role="tab" aria-controls="pills-q3" aria-selected="false">How Can I Hire App Developers Online?</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-q4-tab" data-bs-toggle="pill" data-bs-target="#pills-q4" type="button" role="tab" aria-controls="pills-q4" aria-selected="false">What Services Does An App Design And Development Agency Provide?</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-q5-tab" data-bs-toggle="pill" data-bs-target="#pills-q5" type="button" role="tab" aria-controls="pills-q5" aria-selected="false">Where Can I Find Reliable Application Developers?</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xx-8 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12">
-                    <div class="faqs-sec-item">
-                        <div class="faqs-sec-head">
-                            <h4 class="heading-two">Frequently Asked Questions</h4>
-                        </div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is a book writing service?
-                                    </button>
-                                </h5>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    It is a professional service where experienced writers craft a manuscript based on a client's idea, outline, or story.
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                    <div class="faqs-tab-content">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-img" role="tabpanel" aria-labelledby="pills-img-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-img">
+                                        <img src="assets/images/process-section/android-process.png" alt="img" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How much does the book writing process cost?
-                                    </button>
-                                </h5>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    The cost varies depending on the length, complexity of the book, and the writer's expertise, typically    ranging from a few thousand to tens of thousands of dollars.
+                            <div class="tab-pane fade" id="pills-q1" role="tabpanel" aria-labelledby="pills-q1-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-content">
+                                        <h5 class="heading-three">Custom IOS App Development</h5>
+                                        <p>The process of app design and development involves several stages, starting from conceptualization to deployment. It typically includes the following steps: research and analysis, defining requirements, wireframing and prototyping, UI/UX design, coding and development, testing and quality assurance, deployment, and ongoing maintenance.</p>
+                                        <ul>
+                                            <li>
+                                                <p><b>Experience and Expertise:</b> Look for a company with a proven track record and experience in app design and development. Check their portfolio and client testimonials to assess their capabilities.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Team of Developers:</b> Ensure the company has a skilled and diverse team of app developers who can handle various platforms and technologies.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Client Collaboration:</b> Look for a company that values client collaboration and involves you in the decision-making process.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Quality Assurance:</b> Check if the company follows robust quality assurance practices to ensure the delivery of high-quality apps.</p>
+                                            </li>
+                                            <li>
+                                                <b>Cost and Timeline:</b>
+                                                <p>Cost and Timeline: Consider the company's pricing structure and estimated timeline for the project.</p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Can I hire Penguin book writers to write my book?
-                                    </button>
-                                </h5>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    Definitely! We are professional online book writers with a wealth of experience in crafting compelling stories. Let’s get started, we’re more than pleased to start a project with you.
+                            <div class="tab-pane fade" id="pills-q2" role="tabpanel" aria-labelledby="pills-q2-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-img">
+                                        <img src="assets/images/process-section/game-process.webp" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="faqs-tab-inner-content">
+                                        <h3>Game Development Services</h3>
+                                        <p>Web Designers LLC helps brands build a seamless product that meets business and market needs effectively through an engaging user experience to further develop loyalty.</p>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
+                                                    Mobile Game Development With Unity
+                                                </h4>
+                                                <p>Unity is frequently the engine of choice for mobile game firms looking for quick and dependable game production.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
+                                                    AR/VR Game Development
+                                                </h4>
+                                                <p>Augmented reality is a novel way to entice choosy players by providing more engagement to your software.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
+                                                    2D And 3D Mobile Game Development
+                                                </h4>
+                                                <p>Millions of Android and iOS users have driven developers to remake 2D and 3D games.</p>
+                                            </div>
+                                        </div>
+                                        <div class="website-main-buttons">
+                                            <button class="chat-btn">Let's Chat With Us</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    What is the reason for writing a book?
-                                    </button>
-                                </h5>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    The reasons vary, including sharing knowledge, telling a story, personal fulfillment, establishing expertise in a field, or for entertainment purposes.
+                            <div class="tab-pane fade" id="pills-q3" role="tabpanel" aria-labelledby="pills-q3-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-img">
+                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="faqs-tab-inner-content">
+                                        <h3>Services For AR/VR App Development</h3>
+                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
+                                                    3D Modeling
+                                                </h4>
+                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
+                                                    Gesture And Motion
+                                                </h4>
+                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
+                                                    AR Apps That Are Location-Based
+                                                </h4>
+                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
+                                            </div>
+                                        </div>
+                                        <div class="website-main-buttons">
+                                            <button class="chat-btn">Let's Chat With Us</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    How long does it take to finish writing a book?
-                                    </button>
-                                </h5>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    It depends on the book's length and complexity, but typically it takes anywhere from a few months to complete.
+                            <div class="tab-pane fade" id="pills-q4" role="tabpanel" aria-labelledby="pills-q4-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-img">
+                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="faqs-tab-inner-content">
+                                        <h3>Services For AR/VR App Development</h3>
+                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
+                                                    3D Modeling
+                                                </h4>
+                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
+                                                    Gesture And Motion
+                                                </h4>
+                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
+                                                    AR Apps That Are Location-Based
+                                                </h4>
+                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
+                                            </div>
+                                        </div>
+                                        <div class="website-main-buttons">
+                                            <button class="chat-btn">Let's Chat With Us</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" >
-                                <h5 class="accordion-header" id="headingSix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    How does the book writing service’s process work?
-                                    </button>
-                                </h5>
-                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    Book writing service process usually involves initial consultations, drafting, revisions, and final editing, tailored to the client's specific requirements and feedback.
+                            <div class="tab-pane fade" id="pills-q5" role="tabpanel" aria-labelledby="pills-q5-tab" tabindex="0">
+                                <div class="faqs-tab-inner">
+                                    <div class="faqs-tab-inner-img">
+                                        <img src="assets/images/process-section/process-1.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="faqs-tab-inner-content">
+                                        <h3>Services For AR/VR App Development</h3>
+                                        <p>Because each of our projects is special and one-of-a-kind, we keep our augmented reality and virtual reality app development process incredibly individualized.</p>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon1.webp" alt="icon" class="img-fluid">
+                                                    3D Modeling
+                                                </h4>
+                                                <p>We make the most of 3D modeling to offer your product marketing and branding vision a new perspective.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon2.webp" alt="icon" class="img-fluid">
+                                                    Gesture And Motion
+                                                </h4>
+                                                <p>This is as near to magic as it gets. Users just move their bodies and hands to engage.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faqs-tab-inner-item">
+                                            <div class="faqs-inneritesms-content">
+                                                <h4>
+                                                    <img src="assets/images/process-section/process-icon3.webp" alt="icon" class="img-fluid">
+                                                    AR Apps That Are Location-Based
+                                                </h4>
+                                                <p>With our augmented reality app development services, develop an augmented reality app that is location-based and uses the device's accelerometer, compass, GPS, and other sensors to provide comprehensive and precise location information.</p>
+                                            </div>
+                                        </div>
+                                        <div class="website-main-buttons">
+                                            <button class="chat-btn">Let's Chat With Us</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -560,7 +717,7 @@ $page = 'home';
             </div>
         </div>
     </section>
-    <!--FAQS Question Section End Here -->
+    <!-- FAQS Section End Here -->
 
     <!-- Customer FeedBack Section Start Here -->
     <section class="customer-feedback-wrap">
