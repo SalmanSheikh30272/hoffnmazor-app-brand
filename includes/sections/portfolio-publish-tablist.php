@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/radius-img.png" data-src="assets/images/portfolio-publish/radius-img.png" alt="Radius Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/radius-img.png" data-src="assets/images/portfolio-publish/radius-img.png" alt="Radius Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/totem-img.png" data-src="assets/images/portfolio-publish/totem-img.png" alt="Totem Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/totem-img.png" data-src="assets/images/portfolio-publish/totem-img.png" alt="Totem Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/irt-img.png" data-src="assets/images/portfolio-publish/irt-img.png" alt="IRT Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/irt-img.png" data-src="assets/images/portfolio-publish/irt-img.png" alt="IRT Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/wyze-img.avif" data-src="assets/images/portfolio-publish/wyze-img.avif" alt="Wyze Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/wyze-img.avif" data-src="assets/images/portfolio-publish/wyze-img.avif" alt="Wyze Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/viator-img.avif" data-src="assets/images/portfolio-publish/viator-img.avif" alt="Viator Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/viator-img.avif" data-src="assets/images/portfolio-publish/viator-img.avif" alt="Viator Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/k-mint-img.avif" data-src="assets/images/portfolio-publish/k-mint-img.avif" alt="K-Mint Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/k-mint-img.avif" data-src="assets/images/portfolio-publish/k-mint-img.avif" alt="K-Mint Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div class="portfolio-tabitem-img">
-                                            <img src="assets/images/portfolio-publish/dicast-img.avif" data-src="assets/images/portfolio-publish/dicast-img.avif" alt="Dicast Img" width="134px" height="100%" class="img-fluid">
+                                            <img src="assets/images/portfolio-publish/dicast-img.avif" data-src="assets/images/portfolio-publish/dicast-img.avif" alt="Dicast Img" width="134" height="auto" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>

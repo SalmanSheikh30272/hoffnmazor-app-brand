@@ -22,7 +22,7 @@ $page = 'home';
                         </div>
                     </div>
                     <div class="banner-main-img">
-                        <img src="assets/images/banner-main-img.avif" data-src="assets/images/banner-main-img.avif" alt="Banner Mobiles" width="100%" height="100%" class="img-fluid">
+                        <img src="assets/images/banner-main-img.avif" data-src="assets/images/banner-main-img.avif" alt="Banner Mobiles" width="100%" height="auto" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="unlock-story-img">
-                            <img src="assets/images/who-we-are-img.avif" data-src="assets/images/who-we-are-img.avif" alt="Who We Are" width="60%" height="100%" class="img-fluid">
+                            <img src="assets/images/who-we-are-img.avif" data-src="assets/images/who-we-are-img.avif" alt="Who We Are" width="60%" height="auto" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -83,18 +83,18 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="offer-head-img">
-                            <img src="assets/images/service-offer-img.avif" data-src="assets/images/service-offer-img.avif" alt="Service Offer" width="75%" height="100%" class="img-fluid">
+                            <img src="assets/images/service-offer-img.avif" data-src="assets/images/service-offer-img.avif" alt="Service Offer" width="75%" height="auto" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="service-offer-inner">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/mobile-app.avif" data-src="assets/images/service-offer-icons/mobile-app.avif" alt="Mobile App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/mobile-app.avif" data-src="assets/images/service-offer-icons/mobile-app.avif" alt="Mobile App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="mobile-app-development"><h4 class="heading-six">Mobile App <br>Development</h4></a>
                             </div>
@@ -107,7 +107,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/ios-app.avif" data-src="assets/images/service-offer-icons/ios-app.avif" alt="IOS App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/ios-app.avif" data-src="assets/images/service-offer-icons/ios-app.avif" alt="IOS App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="ios-app-development"><h4 class="heading-six">IOS App <br>Development</h4></a>
                             </div>
@@ -120,7 +120,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/android-app.avif" data-src="assets/images/service-offer-icons/android-app.avif" alt="Android App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/android-app.avif" data-src="assets/images/service-offer-icons/android-app.avif" alt="Android App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="android-app-development"><h4 class="heading-six">Android App <br>Development</h4></a>
                             </div>
@@ -133,7 +133,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/prototype.avif" data-src="assets/images/service-offer-icons/prototype.avif" alt="Prototype" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/prototype.avif" data-src="assets/images/service-offer-icons/prototype.avif" alt="Prototype" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="prototype-mobile-app-development"><h4 class="heading-six">Mobile App <br>Prototype</h4></a>
                             </div>
@@ -146,7 +146,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/mvp-app.avif" data-src="assets/images/service-offer-icons/mvp-app.avif" alt="MVP App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/mvp-app.avif" data-src="assets/images/service-offer-icons/mvp-app.avif" alt="MVP App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <h4 class="heading-six">MVP App <br>Development</h4>
                             </div>
@@ -159,7 +159,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/game-app.avif" data-src="assets/images/service-offer-icons/game-app.avif" alt="Game App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/game-app.avif" data-src="assets/images/service-offer-icons/game-app.avif" alt="Game App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="game-app-development"><h4 class="heading-six">Games App <br>Development</h4></a>
                             </div>
@@ -172,7 +172,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/nft-app.avif" data-src="assets/images/service-offer-icons/nft-app.avif" alt="NFT App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/nft-app.avif" data-src="assets/images/service-offer-icons/nft-app.avif" alt="NFT App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="nft-development"><h4 class="heading-six">NFT App <br>Development</h4></a>
                             </div>
@@ -185,7 +185,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/wearable-app.avif" data-src="assets/images/service-offer-icons/wearable-app.avif" alt="Wearable App" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/wearable-app.avif" data-src="assets/images/service-offer-icons/wearable-app.avif" alt="Wearable App" width="50" height="50" class="img-fluid">
                                 </div>
                                 <a href="wearable-app-development"><h4 class="heading-six">Wearable App</h4></a>
                             </div>
@@ -198,7 +198,7 @@ $page = 'home';
                         <div class="service-offer-box">
                             <div class="offer-box-head">
                                 <div class="offer-box-img">
-                                    <img src="assets/images/service-offer-icons/machine-learning.avif" data-src="assets/images/service-offer-icons/machine-learning.avif" alt="Machine Learning" width="50px" height="50px" class="img-fluid">
+                                    <img src="assets/images/service-offer-icons/machine-learning.avif" data-src="assets/images/service-offer-icons/machine-learning.avif" alt="Machine Learning" width="50" height="50" class="img-fluid">
                                 </div>
                                 <h4 class="heading-six">Machine Learning <br>App Development</h4>
                             </div>
@@ -284,7 +284,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">01</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">Product Strategy</h4>
+                                <h4 class="heading-two">Product Strategy</h4>
                                 <p>Our application developers work and develop a strategy for developing your idea into a full-fledged mobile application that your customers would love.</p>
                             </div>
                         </div>
@@ -293,7 +293,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">02</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">UI/UX Design</h4>
+                                <h4 class="heading-two">UI/UX Design</h4>
                                 <p>Designing an experience assisted by an impeccable interface is the pinnacle of an app’s success, and take large measures to ensure your app looks and feels right.</p>
                             </div>
                         </div>
@@ -302,7 +302,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">03</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">Testing</h4>
+                                <h4 class="heading-two">Testing</h4>
                                 <p>Rigorous testing phases are run to ensure the app is free of lags, bugs, and other developmental issues which could slow progress or hamper a seamless user experience.</p>
                             </div>
                         </div>
@@ -311,7 +311,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">04</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">Analysis & Planning</h4>
+                                <h4 class="heading-two">Analysis & Planning</h4>
                                 <p>We carefully analyze each process, prepare its findings, and developing intuitive strategies to work on the most pressing areas.</p>
                             </div>
                         </div>
@@ -320,7 +320,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">05</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">App Development</h4>
+                                <h4 class="heading-two">App Development</h4>
                                 <p>The most awaited process where our coders get down to go the groundwork by our application developers.</p>
                             </div>
                         </div>
@@ -329,7 +329,7 @@ $page = 'home';
                         <div class="step-works-box">
                             <span class="step-count">06</span>
                             <div class="works-box-content">
-                                <h4 class="heading-two text-center">Development & Support</h4>
+                                <h4 class="heading-two">Development & Support</h4>
                                 <p>After complete development, your app idea is deployed on hosting platforms and post-launch support is initiated.</p>
                             </div>
                         </div>
@@ -382,11 +382,11 @@ $page = 'home';
             </div>
             <div class="why-choose-inner">
                 <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/customer-relation.avif" data-src="assets/images/why-choose-icons/customer-relation.avif" alt="Relationship" width="60px" height="60px" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/customer-relation.avif" data-src="assets/images/why-choose-icons/customer-relation.avif" alt="Relationship" width="60" height="60" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Customer Relationship</h4>
                             </div>
@@ -395,11 +395,11 @@ $page = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/stronger-brand.avif" data-src="assets/images/why-choose-icons/stronger-brand.avif" alt="Stronger Brand" width="60px" height="60px" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/stronger-brand.avif" data-src="assets/images/why-choose-icons/stronger-brand.avif" alt="Stronger Brand" width="60" height="60" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Stronger Brand</h4>
                             </div>
@@ -408,11 +408,11 @@ $page = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/insights.avif" data-src="assets/images/why-choose-icons/insights.avif" alt="Insights" width="60px" height="60px" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/insights.avif" data-src="assets/images/why-choose-icons/insights.avif" alt="Insights" width="60" height="60" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Customer Insights</h4>
                             </div>
@@ -421,11 +421,11 @@ $page = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="why-choose-box">
                             <div class="choose-box-head">
                                 <div class="choose-box-img">
-                                <img src="assets/images/why-choose-icons/competitive.avif" data-src="assets/images/why-choose-icons/competitive.avif" alt="Competitive" width="60px" height="60px" class="img-fluid">
+                                <img src="assets/images/why-choose-icons/competitive.avif" data-src="assets/images/why-choose-icons/competitive.avif" alt="Competitive" width="60" height="60" class="img-fluid">
                                 </div>
                                 <h4 class="heading-three">Competitive Edge</h4>
                             </div>
@@ -487,7 +487,7 @@ $page = 'home';
                 <h4 class="heading-two">Frequently Asked Questions!</h4>
             </div>
             <div class="row align-items-center">
-                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-5 col-sm-12 col-12">
                     <div class="faqs-tab-list">
                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -511,13 +511,13 @@ $page = 'home';
                         </ul>
                     </div>
                 </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-7 col-sm-12 col-12">
                     <div class="faqs-tab-content">
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-img" role="tabpanel" aria-labelledby="pills-img-tab" tabindex="0">
                                 <div class="faqs-tab-inner">
                                     <div class="faqs-tab-inner-img">
-                                        <img src="assets/images/faqs-sec-img.avif" data-src="assets/images/faqs-sec-img.avif" alt="FAQS Img" width="100%" height="100%" class="img-fluid">
+                                        <img src="assets/images/faqs-sec-img.avif" data-src="assets/images/faqs-sec-img.avif" alt="FAQS Img" width="100%" height="auto" class="img-fluid">
                                     </div>
                                 </div>
                             </div>

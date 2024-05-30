@@ -17,9 +17,18 @@ $('.bandown-brands-item').slick({
   autoplaySpeed: 2000,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -56,9 +65,18 @@ $('.award-brands-slider').slick({
   autoplaySpeed: 1000,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         dots: false

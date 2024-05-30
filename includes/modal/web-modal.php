@@ -17,9 +17,9 @@
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
                             <div class="modal-body-form">
                                 <h3>Save Upto 30% <span>Limited Time Offer</span></h3>
-                                <form action="https://leads.infinityprojectmanager.com/brand/penguinbookwriters/lead" method="GET">
-                                    <input type="hidden" name="brand_name" value="penguinbookwriters.com">
-                                    <input type="hidden" id="lead_area" name="lead_area" value="http://www.penguinbookwriters.com">
+                                <form action="https://leads.infinityprojectmanager.com/brand/hoffnmazor/lead" method="GET">
+                                    <input type="hidden" name="brand_name" value="hoffnmazor.com">
+                                    <input type="hidden" id="lead_area" name="lead_area" value="http://www.hoffnmazor.com">
                                     <div class="popup-form-list">
                                         <div class="form-group">
                                             <input type="text" name="name" placeholder="Your Name" required>

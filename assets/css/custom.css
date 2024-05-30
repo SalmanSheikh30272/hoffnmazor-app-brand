@@ -186,14 +186,12 @@ header nav.navbar .navbar-brand{
     padding: 0px 0;
     margin: 0;
 }
-header nav.navbar .navbar-brand .logo{}
 header .navbar-toggler{
     background-color: #fff;
 }
 header .navbar-toggler:focus{
     box-shadow: none;
 }
-header .navbar-expand-lg .navbar-collapse{}
 header .navbar-collapse .navbar-main-nav{
     display: flex;
     align-items: center;
@@ -222,7 +220,6 @@ header .navbar-main-center ul.navbar-nav li.nav-item a.nav-link{
 header .navbar-main-center ul.navbar-nav li.nav-item:hover a.nav-link{
     color: #02dfbf;
 }
-header .navbar-main-center ul.navbar-nav li.nav-item.dropdown{}
 header ul.navbar-nav .nav-item.dropdown .dropdown-toggle{
     position: relative;
     display: flex;
@@ -353,8 +350,6 @@ section.banner-main-sec{
     justify-content: space-around;
 }
 .banner-brands .banner-brands-items img{
-    width: 140px;
-    height: 40px;
     object-fit: scale-down;
     margin: 0 10px 0;
 }
@@ -385,7 +380,6 @@ section.banner-main-sec{
 .banner-main-sec .banner-main-img{
     margin-bottom: -150px;
 }
-.banner-main-img img{}
 /*Banner Main Section Css End Here*/
 
 /*Unlock Story Section Css Start Here*/
@@ -394,8 +388,6 @@ section.unlock-story-wrap{
     position: relative;
     z-index: 1;
 }
-.unlock-story-wrap .unlock-story-inner{}
-.unlock-story-inner .unlock-story-content{}
 .unlock-story-content .heading-three{
     color: #212529;
     margin: 0 0 20px;
@@ -415,7 +407,6 @@ section.unlock-story-wrap{
     color: #1f7468;
     text-decoration: underline;
 }
-.unlock-story-content .website-main-buttons{}
 .unlock-story-content .website-main-buttons button.popup-btn{
     background: #000;
     color: #fff;
@@ -436,9 +427,6 @@ section.unlock-story-wrap{
 }
 .unlock-story-inner .unlock-story-img{
     text-align: right;
-}
-.unlock-story-img img{
-    width: 60%;
 }
 /*Unlock Story Section Css End Here*/
 
@@ -487,7 +475,6 @@ section.counter-satisfy-wrap{
 .counter-box-img img{
     object-fit: contain;
 }
-.counter-satisfy-box .counter-box-head{}
 .counter-satisfy-box .counter-box-head .heading-two{
     color: #fff;
     margin: 0 0 10px;
@@ -512,7 +499,6 @@ section.service-offer-wrap{
 .service-offer-wrap .service-offer-head{
     margin: 0 0 50px;
 }
-.service-offer-head .offer-head-content{}
 .offer-head-content .heading-two{
     color: #212529;
     margin: 0 0 10px;
@@ -542,10 +528,6 @@ section.service-offer-wrap{
 .service-offer-head .offer-head-img{
     text-align: right;
 }
-.offer-head-img img{
-    width: 75%;
-}
-.service-offer-wrap .service-offer-inner{}
 .service-offer-inner .service-offer-box{
     background-color: #e7f6fb;
     padding: 20px 20px;
@@ -569,14 +551,11 @@ section.service-offer-wrap{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    margin: 0 20px 0 0;
 }
 .offer-box-img img{
-    width: 50px;
-    height: 50px;
     object-fit: contain;
 }
-.offer-box-head a{}
 .offer-box-head .heading-six{
     color: #000;
     margin: 0;
@@ -643,8 +622,6 @@ section.bandown-brands-wrap{
     margin: 0 10px;
 }
 .brands-item-img img{
-    width: 150px;
-    height: 150px;
     object-fit: contain;
     margin: 0 auto;
 }
@@ -711,7 +688,6 @@ section.cta-main-wrap{
 }
 .cta-main-wrap .cta-main-img img{
     position: absolute;
-    width: 55%;
     top: -190px;
     left: 35%;
 }
@@ -820,9 +796,7 @@ section.portfolio-publish-wrap{
     top: 75px;
     left: 10px;
 }
-.portfolio-tabitem-img img{
-    width: 134px;
-}
+.portfolio-tabitem-img img{}
 /*Portfolio Publish Section Css End Here*/
 
 /*Step Works Section Css Start Here*/
@@ -864,6 +838,7 @@ section.step-works-wrap{
     color: #212529;
     height: 40px;
     margin: 0 0 40px;
+    text-align: center;
 }
 .works-box-content p{
     color: #212529;
@@ -929,8 +904,6 @@ section.award-brands-wrap{
     margin: 0 20px 0;
 }
 .award-brands-box img{
-    width: 105px;
-    height: 75px;
     object-fit: contain;
     margin: 0 auto;
 }
@@ -964,7 +937,6 @@ section.why-choose-wrap{
     text-align: right;
 }
 .choose-head-img img{
-    width: 65%;
     position: absolute;
     top: -125px;
     right: -125px;
@@ -986,8 +958,6 @@ section.why-choose-wrap{
     margin: 0 20px 0 0;
 }
 .choose-box-img img{
-    width: 60px;
-    height: 60px;
     object-fit: contain;
 }
 .choose-box-head .heading-three{
@@ -1046,7 +1016,6 @@ section.cta-banner-wrap{
 }
 .cta-banner-wrap .cta-banner-img img{
     position: absolute;
-    width: 50%;
     top: -190px;
     left: 35%;
 }
@@ -1078,8 +1047,6 @@ section.genre-industry-wrap{
     margin: 0 0 20px;
 }
 .genre-industry-box img{
-    width: 60px;
-    height: 60px;
     margin: 20px 0;
 }
 .genre-industry-box a{
@@ -1170,12 +1137,1303 @@ section.faqs-sec-wrap{
     list-style: disc;
     padding: 0 0 0 20px;
 }
-.faqs-tab-inner-content li{}
-.faqs-tab-inner-content li p{}
-.faqs-tab-inner-content li p b{}
 /*FAQS Section Section Css End Here*/
 
 /**************************************************************************
  --------------------- Home Page Folds Css End Here -----------------------
  --------------------------------------------------------------------------
 **************************************************************************/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+.heading-one{
+    font-size: 30px;
+    line-height: 36px;
+}
+.heading-two{
+    font-size: 26px;
+    line-height: 32px;
+}
+.heading-three{
+    font-size: 22px;
+    line-height: 28px;
+}
+.heading-four{
+    font-size: 20px;
+    line-height: 26px;
+}
+.heading-five{
+    font-size: 18px;
+    line-height: 22px;
+}
+.heading-six{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 16px;
+    margin: 0 10px 10px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand{
+    width: 200px;
+}
+header .navbar-expand-lg .navbar-collapse{
+    background: #e7f6fb;
+    margin: 10px 0px;
+}
+header .navbar-collapse .navbar-main-nav{
+    flex-direction: column;
+}
+header .navbar-main-nav .navbar-main-center{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav li.nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+header ul.navbar-nav .nav-item.dropdown ul.dropdown-menu li a{
+    font-size: 14px;
+    line-height: 22px;
+}
+header .navbar-main-nav .website-main-buttons{
+    margin: 10px 0;
+}
+header .navbar-main-nav .website-main-buttons .headphone-head i{
+    font-size: 20px;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+---------------- Home Page Folds Responsive Css Start Here ---------------
+--------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+.banner-main-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.banner-main-content .banner-brands{
+    margin: 20px 0;
+}
+.banner-brands .banner-brands-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner-brands .banner-brands-items img{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.popup-btn{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.chat-btn{
+    margin: 0 10px 10px;
+}
+/*Banner Main Section Responsive Css End Here*/
+
+/*Unlock Story Section Responsive Css Start Here*/
+.unlock-story-content .heading-three span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.unlock-story-content .website-main-buttons{
+    justify-content: left;
+}
+/*Unlock Story Section Responsive Css End Here*/
+
+/*Counter Satisfy Section Responsive Css Start Here*/
+.counter-satisfy-inner .counter-satisfy-head{
+    width: 100%;
+}
+.counter-satisfy-inner .counter-satisfy-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.counter-satisfy-items .counter-satisfy-box{
+    margin: 0 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+.counter-satisfy-box p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Counter Satisfy Section Responsive Css End Here*/
+
+/*Service Offer Section Responsive Css Start Here*/
+section.service-offer-wrap{
+    padding: 30px 0;
+}
+.offer-head-content .website-main-buttons{
+    justify-content: left;
+}
+.service-offer-box .offer-box-content{
+    min-height: 190px;
+    max-height: 190px;
+    visibility: visible;
+    opacity: 1;
+}
+.service-offer-box:hover .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+}
+/*Service Offer Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+.cta-main-wrap .cta-main-inner{
+    padding: 20px 20px;
+}
+.cta-main-content .website-main-buttons{
+    justify-content: left;
+}
+.cta-main-wrap .cta-main-img img{
+    position: inherit;
+    top: 0;
+    left: 25%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 20px;
+    width: 150px;
+}
+.portfolio-tabitem-inner::before{
+    opacity: 0.7;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-img{
+    text-align: center;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.works-box-content .heading-two{
+    height: 60px;
+    text-align: left;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+.choose-head-content .heading-two span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.choose-head-img img{
+    top: -75px;
+    right: 0;
+}
+.why-choose-wrap .why-choose-inner{
+    padding: 40px 30px;
+}
+.choose-box-head .choose-box-img{
+    margin: 0 10px 0 0;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+section.cta-banner-wrap{
+    padding: 30px 0;
+}
+.cta-banner-wrap .cta-banner-inner{
+    padding: 20px 20px;
+}
+.cta-banner-content .website-main-buttons{
+    justify-content: left;
+}
+.cta-banner-wrap .cta-banner-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Genre industry Section Responsive Css Start Here*/
+section.genre-industry-wrap{
+    padding: 30px 0;
+}
+.genre-industry-wrap .genre-industry-inner{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.genre-industry-box a{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Genre industry Section Responsive Css End Here*/
+
+/* FAQS Section Responsive Css Start Here*/
+section.faqs-sec-wrap{
+    padding: 30px 0;
+}
+.faqs-sec-wrap .container-fluid{
+    padding: 0 0px 0 20px;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 25px 10px 10px;
+}
+/*FAQS Section Section Responsive Css End Here*/
+
+/**************************************************************************
+--------------- Home Page Folds Responsive Css End Here ------------------
+--------------------------------------------------------------------------
+**************************************************************************/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+.heading-one{
+    font-size: 30px;
+    line-height: 36px;
+}
+.heading-two{
+    font-size: 26px;
+    line-height: 32px;
+}
+.heading-three{
+    font-size: 22px;
+    line-height: 28px;
+}
+.heading-four{
+    font-size: 20px;
+    line-height: 26px;
+}
+.heading-five{
+    font-size: 18px;
+    line-height: 22px;
+}
+.heading-six{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 16px;
+    margin: 0 10px 10px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand{
+    width: 200px;
+}
+header .navbar-expand-lg .navbar-collapse{
+    background: #e7f6fb;
+    margin: 10px 0px;
+}
+header .navbar-collapse .navbar-main-nav{
+    flex-direction: column;
+}
+header .navbar-main-nav .navbar-main-center{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav li.nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+header ul.navbar-nav .nav-item.dropdown ul.dropdown-menu li a{
+    font-size: 14px;
+    line-height: 22px;
+}
+header .navbar-main-nav .website-main-buttons{
+    margin: 10px 0;
+}
+header .navbar-main-nav .website-main-buttons .headphone-head i{
+    font-size: 20px;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+---------------- Home Page Folds Responsive Css Start Here ---------------
+--------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+.banner-main-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.banner-main-content .banner-brands{
+    margin: 20px 0;
+}
+.banner-brands .banner-brands-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner-brands .banner-brands-items img{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.popup-btn{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.chat-btn{
+    margin: 0 10px 10px;
+}
+/*Banner Main Section Responsive Css End Here*/
+
+/*Unlock Story Section Responsive Css Start Here*/
+.unlock-story-content .heading-three span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.unlock-story-content .website-main-buttons{
+    justify-content: left;
+}
+/*Unlock Story Section Responsive Css End Here*/
+
+/*Counter Satisfy Section Responsive Css Start Here*/
+.counter-satisfy-inner .counter-satisfy-head{
+    width: 100%;
+}
+.counter-satisfy-inner .counter-satisfy-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.counter-satisfy-items .counter-satisfy-box{
+    margin: 0 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+.counter-satisfy-box p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Counter Satisfy Section Responsive Css End Here*/
+
+/*Service Offer Section Responsive Css Start Here*/
+section.service-offer-wrap{
+    padding: 30px 0;
+}
+.offer-head-content .website-main-buttons{
+    justify-content: left;
+}
+.service-offer-box .offer-box-content{
+    min-height: 190px;
+    max-height: 190px;
+    visibility: visible;
+    opacity: 1;
+}
+.service-offer-box:hover .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+}
+/*Service Offer Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+.cta-main-wrap .cta-main-inner{
+    padding: 20px 20px;
+}
+.cta-main-content .website-main-buttons{
+    justify-content: left;
+}
+.cta-main-wrap .cta-main-img img{
+    position: inherit;
+    top: 0;
+    left: 25%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 20px;
+    width: 150px;
+}
+.portfolio-tabitem-inner::before{
+    opacity: 0.7;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-img{
+    text-align: center;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.works-box-content .heading-two{
+    height: 60px;
+    text-align: left;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+.choose-head-content .heading-two span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.choose-head-img img{
+    top: -75px;
+    right: 0;
+}
+.why-choose-wrap .why-choose-inner{
+    padding: 40px 30px;
+}
+.choose-box-head .choose-box-img{
+    margin: 0 10px 0 0;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+section.cta-banner-wrap{
+    padding: 30px 0;
+}
+.cta-banner-wrap .cta-banner-inner{
+    padding: 20px 20px;
+}
+.cta-banner-content .website-main-buttons{
+    justify-content: left;
+}
+.cta-banner-wrap .cta-banner-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Genre industry Section Responsive Css Start Here*/
+section.genre-industry-wrap{
+    padding: 30px 0;
+}
+.genre-industry-wrap .genre-industry-inner{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.genre-industry-box a{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Genre industry Section Responsive Css End Here*/
+
+/* FAQS Section Responsive Css Start Here*/
+section.faqs-sec-wrap{
+    padding: 30px 0;
+}
+.faqs-sec-wrap .container-fluid{
+    padding: 0 0px 0 20px;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 25px 10px 10px;
+}
+/*FAQS Section Section Responsive Css End Here*/
+
+/**************************************************************************
+--------------- Home Page Folds Responsive Css End Here ------------------
+--------------------------------------------------------------------------
+**************************************************************************/
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+.heading-one{
+    font-size: 30px;
+    line-height: 36px;
+}
+.heading-two{
+    font-size: 26px;
+    line-height: 32px;
+}
+.heading-three{
+    font-size: 22px;
+    line-height: 28px;
+}
+.heading-four{
+    font-size: 20px;
+    line-height: 26px;
+}
+.heading-five{
+    font-size: 18px;
+    line-height: 22px;
+}
+.heading-six{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 16px;
+    margin: 0 10px 10px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand{
+    width: 190px;
+}
+header .navbar-expand-lg .navbar-collapse{
+    background: #e7f6fb;
+    margin: 10px 0px;
+}
+header .navbar-collapse .navbar-main-nav{
+    flex-direction: column;
+}
+header .navbar-main-nav .navbar-main-center{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav li.nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+header ul.navbar-nav .nav-item.dropdown ul.dropdown-menu li a{
+    font-size: 14px;
+    line-height: 22px;
+}
+header .navbar-main-nav .website-main-buttons{
+    margin: 10px 0;
+}
+header .navbar-main-nav .website-main-buttons .headphone-head i{
+    font-size: 20px;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+---------------- Home Page Folds Responsive Css Start Here ---------------
+--------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+section.banner-main-sec{
+    padding: 100px 0 50px;
+    margin: 0 0 100px;
+}
+.banner-main-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.banner-main-content .banner-brands{
+    margin: 20px 0;
+}
+.banner-brands .banner-brands-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner-brands .banner-brands-items img{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.popup-btn{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.chat-btn{
+    margin: 0 10px 10px;
+}
+/*Banner Main Section Responsive Css End Here*/
+
+/*Unlock Story Section Responsive Css Start Here*/
+section.unlock-story-wrap{
+    padding: 30px 0;
+}
+.unlock-story-inner .unlock-story-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.unlock-story-content .heading-three span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.unlock-story-inner .unlock-story-img{
+    text-align: center;
+}
+/*Unlock Story Section Responsive Css End Here*/
+
+/*Counter Satisfy Section Responsive Css Start Here*/
+.counter-satisfy-inner .counter-satisfy-head{
+    width: 100%;
+}
+.counter-satisfy-inner .counter-satisfy-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.counter-satisfy-items .counter-satisfy-box{
+    margin: 0 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+.counter-satisfy-box p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Counter Satisfy Section Responsive Css End Here*/
+
+/*Service Offer Section Responsive Css Start Here*/
+section.service-offer-wrap{
+    padding: 30px 0;
+}
+.service-offer-wrap .service-offer-head{
+    margin: 0 0 30px;
+}
+.service-offer-head .offer-head-content{
+    text-align: center;
+}
+.service-offer-head .offer-head-img{
+    text-align: center;
+}
+.service-offer-inner .service-offer-box{
+    text-align: center;
+}
+.service-offer-box .offer-box-head{
+    justify-content: center;
+    flex-direction: column;
+}
+.offer-box-head .offer-box-img{
+    margin: 0 0 20px;
+}
+.service-offer-box .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+    visibility: visible;
+    opacity: 1;
+}
+.service-offer-box:hover .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+}
+/*Service Offer Section Responsive Css End Here*/
+
+/*Banner Down Brands Section Responsive Css Start Here*/
+.bandown-brands-wrap .bandown-brands-head{
+    width: 100%;
+}
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+section.cta-main-wrap{
+    padding: 30px 0;
+}
+.cta-main-wrap .cta-main-inner{
+    background-position: 60% 100%;
+    padding: 20px 20px;
+}
+.cta-main-wrap .cta-main-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-main-wrap .cta-main-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    text-align: center;
+}
+.portfolio-publish-buttons ul.nav-pills{
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item{
+    margin: 0 10px 10px;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 20px;
+}
+.portfolio-publish-tabitem .portfolio-tabitem-inner{
+    background-position: 30% 100%;
+    height: inherit;
+    padding: 40px 20px;
+}
+.portfolio-tabitem-inner::before{
+    opacity: 0.7;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-wrap .step-works-head{
+    width: 100%;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.step-works-box span.step-count{
+    top: -50px;
+    font-size: 175px;
+}
+.works-box-content .heading-two{
+    height: 60px;
+    text-align: left;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Award Brands Section Responsive Css Start Here*/
+.award-brands-wrap .award-brands-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*Award Brands Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+section.why-choose-wrap{
+    padding: 30px 0;
+}
+.why-choose-wrap .why-choose-head{
+    text-align: center;
+    margin: 0 0 30px;
+}
+.choose-head-content .heading-two span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.why-choose-head .choose-head-img{
+    display: none;
+}
+.why-choose-wrap .why-choose-inner{
+    padding: 30px 30px;
+}
+.choose-box-head .choose-box-img{
+    margin: 0 10px 0 0;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+section.cta-banner-wrap{
+    padding: 30px 0;
+}
+.cta-banner-wrap .cta-banner-inner{
+    padding: 20px 20px;
+}
+.cta-banner-wrap .cta-banner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-banner-wrap .cta-banner-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Genre industry Section Responsive Css Start Here*/
+section.genre-industry-wrap{
+    padding: 30px 0;
+}
+.genre-industry-wrap .genre-industry-head{
+    width: 100%;
+}
+.genre-industry-wrap .genre-industry-inner{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.genre-industry-box a{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Genre industry Section Responsive Css End Here*/
+
+/* FAQS Section Responsive Css Start Here*/
+section.faqs-sec-wrap{
+    padding: 30px 0;
+}
+.faqs-sec-wrap .container-fluid{
+    padding: 0 20px;
+}
+.faqs-sec-wrap .faqs-sec-head{
+    text-align: center;
+}
+.faqs-tab-list ul.nav-pills li.nav-item{
+    margin: 0 0 10px
+}
+.faqs-tab-list ul.nav-pills li.nav-item:last-child{
+    margin: 0 0 10px;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 25px 10px 10px;
+}
+.faqs-tab-inner .faqs-tab-inner-content{
+    padding: 20px 20px;
+    background: #e7f6fb;
+}
+/*FAQS Section Section Responsive Css End Here*/
+
+/**************************************************************************
+--------------- Home Page Folds Responsive Css End Here ------------------
+--------------------------------------------------------------------------
+**************************************************************************/
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+.heading-one{
+    font-size: 30px;
+    line-height: 36px;
+}
+.heading-two{
+    font-size: 26px;
+    line-height: 32px;
+}
+.heading-three{
+    font-size: 22px;
+    line-height: 28px;
+}
+.heading-four{
+    font-size: 20px;
+    line-height: 26px;
+}
+.heading-five{
+    font-size: 18px;
+    line-height: 22px;
+}
+.heading-six{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 16px;
+    margin: 0 10px 10px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand{
+    width: 190px;
+}
+header .navbar-expand-lg .navbar-collapse{
+    background: #e7f6fb;
+    margin: 10px 0px;
+}
+header .navbar-collapse .navbar-main-nav{
+    flex-direction: column;
+}
+header .navbar-main-nav .navbar-main-center{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav{
+    margin: 0;
+}
+header .navbar-main-center ul.navbar-nav li.nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+header ul.navbar-nav .nav-item.dropdown ul.dropdown-menu li a{
+    font-size: 14px;
+    line-height: 22px;
+}
+header .navbar-main-nav .website-main-buttons{
+    margin: 10px 0;
+}
+header .navbar-main-nav .website-main-buttons .headphone-head i{
+    font-size: 20px;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+ ---------------- Home Page Folds Responsive Css Start Here ---------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+section.banner-main-sec{
+    padding: 100px 0 50px;
+    margin: 0 0 100px;
+}
+.banner-main-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.banner-main-content .banner-brands{
+    margin: 20px 0;
+}
+.banner-brands .banner-brands-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner-brands .banner-brands-items img{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.popup-btn{
+    margin: 0 10px 10px;
+}
+.banner-main-content .website-main-buttons button.chat-btn{
+    margin: 0 10px 10px;
+}
+/*Banner Main Section Responsive Css End Here*/
+
+/*Unlock Story Section Responsive Css Start Here*/
+section.unlock-story-wrap{
+    padding: 30px 0;
+}
+.unlock-story-inner .unlock-story-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.unlock-story-content .heading-three span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.unlock-story-inner .unlock-story-img{
+    text-align: center;
+}
+/*Unlock Story Section Responsive Css End Here*/
+
+/*Counter Satisfy Section Responsive Css Start Here*/
+.counter-satisfy-inner .counter-satisfy-head{
+    width: 100%;
+}
+.counter-satisfy-inner .counter-satisfy-items{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.counter-satisfy-items .counter-satisfy-box{
+    margin: 0 10px 10px;
+}
+.counter-satisfy-box p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Counter Satisfy Section Responsive Css End Here*/
+
+/*Service Offer Section Responsive Css Start Here*/
+section.service-offer-wrap{
+    padding: 30px 0;
+}
+.service-offer-wrap .service-offer-head{
+    margin: 0 0 30px;
+}
+.service-offer-head .offer-head-content{
+    text-align: center;
+}
+.service-offer-head .offer-head-img{
+    text-align: center;
+}
+.service-offer-inner .service-offer-box{
+    text-align: center;
+}
+.service-offer-box .offer-box-head{
+    justify-content: center;
+    flex-direction: column;
+}
+.offer-box-head .offer-box-img{
+    margin: 0 0 20px;
+}
+.service-offer-box .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+    visibility: visible;
+    opacity: 1;
+}
+.service-offer-box:hover .offer-box-content{
+    min-height: inherit;
+    max-height: inherit;
+}
+/*Service Offer Section Responsive Css End Here*/
+
+/*Banner Down Brands Section Responsive Css Start Here*/
+.bandown-brands-wrap .bandown-brands-head{
+    width: 100%;
+}
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+section.cta-main-wrap{
+    padding: 30px 0;
+}
+.cta-main-wrap .cta-main-inner{
+    background-position: 60% 100%;
+    padding: 20px 20px;
+}
+.cta-main-wrap .cta-main-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-main-wrap .cta-main-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    text-align: center;
+}
+.portfolio-publish-buttons ul.nav-pills{
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item{
+    margin: 0 10px 10px;
+}
+.portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 20px;
+}
+.portfolio-publish-tabitem .portfolio-tabitem-inner{
+    background-position: 30% 100%;
+    height: inherit;
+    padding: 40px 20px;
+}
+.portfolio-tabitem-inner::before{
+    opacity: 0.7;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.portfolio-tabitem-inner .portfolio-tabitem-img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-wrap .step-works-head{
+    width: 100%;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.step-works-box span.step-count{
+    top: -50px;
+    font-size: 175px;
+}
+.works-box-content .heading-two{
+    height: inherit;
+    text-align: left;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Award Brands Section Responsive Css Start Here*/
+.award-brands-wrap .award-brands-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*Award Brands Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+section.why-choose-wrap{
+    padding: 30px 0;
+}
+.why-choose-wrap .why-choose-head{
+    text-align: center;
+    margin: 0 0 30px;
+}
+.choose-head-content .heading-two span{
+    font-size: 18px;
+    line-height: 24px;
+}
+.why-choose-head .choose-head-img{
+    display: none;
+}
+.why-choose-wrap .why-choose-inner{
+    padding: 30px 30px;
+}
+.choose-box-head .choose-box-img{
+    margin: 0 10px 0 0;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+section.cta-banner-wrap{
+    padding: 30px 0;
+}
+.cta-banner-wrap .cta-banner-inner{
+    padding: 20px 20px;
+}
+.cta-banner-wrap .cta-banner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-banner-wrap .cta-banner-img img{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Genre industry Section Responsive Css Start Here*/
+section.genre-industry-wrap{
+    padding: 30px 0;
+}
+.genre-industry-wrap .genre-industry-head{
+    width: 100%;
+}
+.genre-industry-wrap .genre-industry-inner{
+    grid-template-columns: 1fr 1fr;
+}
+.genre-industry-box a{
+    font-size: 16px;
+    line-height: 22px;
+}
+/*Genre industry Section Responsive Css End Here*/
+
+/* FAQS Section Responsive Css Start Here*/
+section.faqs-sec-wrap{
+    padding: 30px 0;
+}
+.faqs-sec-wrap .container-fluid{
+    padding: 0 20px;
+}
+.faqs-sec-wrap .faqs-sec-head{
+    text-align: center;
+}
+.faqs-tab-list ul.nav-pills li.nav-item{
+    margin: 0 0 10px
+}
+.faqs-tab-list ul.nav-pills li.nav-item:last-child{
+    margin: 0 0 10px;
+}
+.faqs-tab-list ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 25px 10px 10px;
+}
+.faqs-tab-inner .faqs-tab-inner-content{
+    padding: 20px 20px;
+    background: #e7f6fb;
+}
+/*FAQS Section Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+}

@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
 </head>
@@ -28,7 +27,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="void:;">
-                    <img src="assets/images/main-logo.avif" data-src="assets/images/main-logo.avif" alt="Website Logo" class="logo" width="100%" height="100%" class="img-fluid">
+                    <img src="assets/images/main-logo.avif" data-src="assets/images/main-logo.avif" alt="Website Logo" class="logo" width="100%" height="auto" class="img-fluid">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

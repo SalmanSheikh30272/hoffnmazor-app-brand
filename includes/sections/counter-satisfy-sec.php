@@ -7,7 +7,7 @@
         <div class="counter-satisfy-items">
             <div class="counter-satisfy-box">
                 <div class="counter-box-img">
-                    <img src="assets/images/counter-icons/icon-1.avif" data-src="assets/images/counter-icons/icon-1.avif" alt="Who We Are" width="50px" height="50px" class="img-fluid">
+                    <img src="assets/images/counter-icons/icon-1.avif" data-src="assets/images/counter-icons/icon-1.avif" alt="Who We Are" width="50" height="50" class="img-fluid">
                 </div>
                 <div class="counter-box-head">
                     <h4 class="heading-two"><span id="number1">500</span>+</h4>
@@ -16,7 +16,7 @@
             </div>
             <div class="counter-satisfy-box">
                 <div class="counter-box-img">
-                    <img src="assets/images/counter-icons/icon-2.avif" data-src="assets/images/counter-icons/icon-2.avif" alt="Who We Are" width="50px" height="50px" class="img-fluid">
+                    <img src="assets/images/counter-icons/icon-2.avif" data-src="assets/images/counter-icons/icon-2.avif" alt="Who We Are" width="50" height="50" class="img-fluid">
                 </div>
                 <div class="counter-box-head">
                     <h4 class="heading-two">Top <span id="number2">4</span>%</h4>
@@ -25,7 +25,7 @@
             </div>
             <div class="counter-satisfy-box">
                 <div class="counter-box-img">
-                    <img src="assets/images/counter-icons/icon-3.avif" data-src="assets/images/counter-icons/icon-3.avif" alt="Who We Are" width="50px" height="50px" class="img-fluid">
+                    <img src="assets/images/counter-icons/icon-3.avif" data-src="assets/images/counter-icons/icon-3.avif" alt="Who We Are" width="50" height="50" class="img-fluid">
                 </div>
                 <div class="counter-box-head">
                     <h4 class="heading-two"><span id="number3">10</span>+</h4>
@@ -34,7 +34,7 @@
             </div>
             <div class="counter-satisfy-box">
                 <div class="counter-box-img">
-                    <img src="assets/images/counter-icons/icon-4.avif" data-src="assets/images/counter-icons/icon-4.avif" alt="Who We Are" width="50px" height="50px" class="img-fluid">
+                    <img src="assets/images/counter-icons/icon-4.avif" data-src="assets/images/counter-icons/icon-4.avif" alt="Who We Are" width="50" height="50" class="img-fluid">
                 </div>
                 <div class="counter-box-head">
                     <h4 class="heading-two"><span id="number4">5</span>M+</h4>
