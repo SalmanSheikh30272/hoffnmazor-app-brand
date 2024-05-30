@@ -5,27 +5,6 @@ window.addEventListener("scroll", function () {
 });
 //***** Sticky Header JS End Here *****//
 
-//***** Banner Step Form JS Fold1 Start *****//
-$(document).on('change','.form-check-input',function(e){
-  $(this).closest('.selceted-box').hide();
-  $(this).closest('.selceted-box').next().show();
-});
-$(document).on('click','.next-btn',function(e){
-  var value = $(this).closest('.selceted-box').find('.must-required')
-  var number_count = $('.number_count').val();
-  if(number_count != "" && number_count != null){
-      $(this).closest('.selceted-box').hide();
-      $(this).closest('.selceted-box').next().show();
-  } else{
-      alert("please check a value")
-  }
-});
-$(document).on('click','.previous-btn',function(e){
-  $(this).closest('.selceted-box').hide();
-  $(this).closest('.selceted-box').prev().show();
-}); 
-//***** Banner Step Form JS Fold1 End *****//
-
 //***** Banner Down Brands Slider JS Start Here *****//
 $('.bandown-brands-item').slick({
   dots: false,
@@ -104,129 +83,6 @@ $('.award-brands-slider').slick({
 });
 //***** Award Brands Slider JS End Here *****//
 
-//*****  Service Offer Slider JS Start Here *****//
-// $('.service-offer-slider').slick({
-//   dots: false,
-//   arrow:false,
-//   infinite: true,
-//   speed: 500,
-//   slidesToShow: 4,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 1000,
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 1,
-//         infinite: true,
-//         dots: false
-//       }
-//     },
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 1
-//       }
-//     },
-//     {
-//       breakpoint: 576,
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1
-//       }
-//     }
-
-//   ]
-// });
-//***** Service Offer Slider JS End Here *****//
-
-//*****  Our Portfolio Slider JS Start Here *****//
-$('.our-portfolio-slider').slick({
-  dots: false,
-  arrow:true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-
-  ]
-});
-//***** Our Portfolio Slider JS End Here *****//
-
-//***** Cutomer Feedback Slider JS Start Here *****//
-$('.customer-feedback-slider').slick({
-  dots: false,
-  arrows: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 2000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-
-  ]
-});
-//***** Cutomer Feedback Slider JS End Here *****//
-
 //***** Counter Timer JS Start Here *****//
 $.fn.jQuerySimpleCounter = function (options) {
   var settings = $.extend({
@@ -279,32 +135,6 @@ $('#number5').jQuerySimpleCounter({ end: parseInt($('#number5').text()), duratio
 //   $(".float-side-form").toggleClass("active");
 // });
 //***** Popup And Flaot Buttons JS End Here *****//
-
-//***** Tilt Hover Effect Js Start Here *****//
-VanillaTilt.init(document.querySelector(".box1"), {
-  max: 10,
-  speed: 1000,
-  scale: 1,
-  transition: true,
-  easing: "cubic-bezier(.03,.98,.52,.99)",
-  perspective: 700,
-  glare: true
-});
-VanillaTilt.init(document.querySelector(".box3"), {
-  max: 10,
-  speed: 1000,
-  perspective: 900
-});
-VanillaTilt.init(document.querySelectorAll(".box2"), {
-  max: 30,
-  speed: 600,
-  scale: 1,
-  transition: true,
-  easing: "cubic-bezier(.03,.98,.52,.99)",
-  perspective: 600,
-  glare: true
-});
-//***** Tilt Hover Effect Js End Here *****//
 
 
 
